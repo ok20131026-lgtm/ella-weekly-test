@@ -17,5 +17,6 @@ export default function QuizApp(){
  if(screen==="main")return <MainMenu bestScores={bestScores} onStartUnit={startUnit}/>;
  if(screen==="result"&&unit)return <ResultScreen unit={unit} score={getScore(answers)} answered={answers.length} total={questions.length} onRetryWrong={retryWrong} onWrongList={()=>setScreen("wrongList")} onHome={()=>setScreen("main")}/>;
  if(screen==="wrongList")return <WrongAnswerList wrongAnswers={wrongAnswers} onPick={retryOne} onHome={()=>setScreen("main")}/>;
- if(!activeQuestion||!unit)return <MainMenu bestScores={bestScores} onStartUnit={startUnit}/>;\n return <QuestionCard unit={unit} question={activeQuestion} current={currentIndex+1} total={questions.length} selectedIndex={storedAnswer?.selectedIndex} onSelect={recordAnswer} onPrev={goPrev} onNext={goNext} onHome={()=>setScreen("main")} canPrev={currentIndex>0}/>;
+ if(!activeQuestion||!unit)return <MainMenu bestScores={bestScores} onStartUnit={startUnit}/>;
+ return <QuestionCard unit={unit} question={activeQuestion} current={currentIndex+1} total={questions.length} selectedIndex={storedAnswer?.selectedIndex} onSelect={recordAnswer} onPrev={goPrev} onNext={goNext} onHome={()=>setScreen("main")} canPrev={currentIndex>0}/>;
 }
