@@ -21,8 +21,10 @@ export type QuizQuestion = {
   mode: QuestionMode;
   question: string;
   choices: string[];
+  choiceMeanings: string[];
   answerIndex: number;
   explanationKo: string;
+  hintKo?: string;
   evidence?: string;
 };
 
@@ -117,7 +119,14 @@ export const quizBook: QuizBook = {
             "through"
           ],
           "answerIndex": 1,
-          "explanationKo": "travel은 한 장소에서 다른 장소로 가다는 뜻입니다."
+          "explanationKo": "travel은 한 장소에서 다른 장소로 가다는 뜻입니다.",
+          "choiceMeanings": [
+            "기차",
+            "여행하다, 이동하다",
+            "나룻배, 페리",
+            "~을 통과하여"
+          ],
+          "hintKo": "한 장소에서 다른 장소로 가다는 뜻입니다."
         },
         {
           "id": "U1-V1-2",
@@ -133,7 +142,14 @@ export const quizBook: QuizBook = {
             "bus"
           ],
           "answerIndex": 0,
-          "explanationKo": "train은 철길 위를 달리는 기차를 뜻합니다."
+          "explanationKo": "train은 철길 위를 달리는 기차를 뜻합니다.",
+          "choiceMeanings": [
+            "기차",
+            "비행기",
+            "배",
+            "버스"
+          ],
+          "hintKo": "철길 위를 달리는 기차를 뜻합니다."
         },
         {
           "id": "U1-V1-3",
@@ -149,7 +165,14 @@ export const quizBook: QuizBook = {
             "awesome"
           ],
           "answerIndex": 0,
-          "explanationKo": "across는 한쪽에서 다른 쪽으로 지나가다는 뜻입니다."
+          "explanationKo": "across는 한쪽에서 다른 쪽으로 지나가다는 뜻입니다.",
+          "choiceMeanings": [
+            "across",
+            "way",
+            "relative",
+            "awesome"
+          ],
+          "hintKo": "한쪽에서 다른 쪽으로 지나가다는 뜻입니다."
         },
         {
           "id": "U1-V1-4",
@@ -165,7 +188,14 @@ export const quizBook: QuizBook = {
             "bus"
           ],
           "answerIndex": 1,
-          "explanationKo": "ferry는 사람이나 물건을 물 건너편으로 나르는 배입니다."
+          "explanationKo": "ferry는 사람이나 물건을 물 건너편으로 나르는 배입니다.",
+          "choiceMeanings": [
+            "헬리콥터",
+            "나룻배, 페리",
+            "기차",
+            "버스"
+          ],
+          "hintKo": "사람이나 물건을 물 건너편으로 나르는 배입니다."
         },
         {
           "id": "U1-V1-5",
@@ -181,7 +211,14 @@ export const quizBook: QuizBook = {
             "worry"
           ],
           "answerIndex": 2,
-          "explanationKo": "awesome은 매우 멋진, 놀라운이라는 뜻입니다."
+          "explanationKo": "awesome은 매우 멋진, 놀라운이라는 뜻입니다.",
+          "choiceMeanings": [
+            "relative",
+            "늦은",
+            "awesome",
+            "걱정하다"
+          ],
+          "hintKo": "매우 멋진, 놀라운이라는 뜻입니다."
         },
         {
           "id": "U1-V2-1",
@@ -197,7 +234,14 @@ export const quizBook: QuizBook = {
             "road"
           ],
           "answerIndex": 0,
-          "explanationKo": "family는 가족을 뜻합니다."
+          "explanationKo": "family는 가족을 뜻합니다.",
+          "choiceMeanings": [
+            "가족",
+            "버스 정류장",
+            "택시",
+            "도로"
+          ],
+          "hintKo": "가족을 뜻합니다."
         },
         {
           "id": "U1-V2-2",
@@ -213,7 +257,14 @@ export const quizBook: QuizBook = {
             "get on"
           ],
           "answerIndex": 0,
-          "explanationKo": "late는 늦은이라는 뜻입니다."
+          "explanationKo": "late는 늦은이라는 뜻입니다.",
+          "choiceMeanings": [
+            "늦은",
+            "제시간에",
+            "소리치다",
+            "타다"
+          ],
+          "hintKo": "늦은이라는 뜻입니다."
         },
         {
           "id": "U1-V2-3",
@@ -229,7 +280,14 @@ export const quizBook: QuizBook = {
             "can"
           ],
           "answerIndex": 1,
-          "explanationKo": "road는 차가 다니는 도로를 뜻합니다."
+          "explanationKo": "road는 차가 다니는 도로를 뜻합니다.",
+          "choiceMeanings": [
+            "자전거",
+            "도로",
+            "비행기",
+            "can"
+          ],
+          "hintKo": "차가 다니는 도로를 뜻합니다."
         },
         {
           "id": "U1-V2-4",
@@ -245,7 +303,14 @@ export const quizBook: QuizBook = {
             "get on"
           ],
           "answerIndex": 0,
-          "explanationKo": "shout은 큰소리로 외치다는 뜻입니다."
+          "explanationKo": "shout은 큰소리로 외치다는 뜻입니다.",
+          "choiceMeanings": [
+            "소리치다",
+            "걱정하다",
+            "타다",
+            "타다"
+          ],
+          "hintKo": "큰소리로 외치다는 뜻입니다."
         },
         {
           "id": "U1-V2-5",
@@ -261,7 +326,14 @@ export const quizBook: QuizBook = {
             "road"
           ],
           "answerIndex": 0,
-          "explanationKo": "get on은 버스나 비행기 등에 타다는 뜻입니다."
+          "explanationKo": "get on은 버스나 비행기 등에 타다는 뜻입니다.",
+          "choiceMeanings": [
+            "타다",
+            "걱정하다",
+            "늦은",
+            "도로"
+          ],
+          "hintKo": "버스나 비행기 등에 타다는 뜻입니다."
         },
         {
           "id": "U1-R1-1",
@@ -279,7 +351,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문은 여러 가지 이동 방법에 대해 설명합니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "There are many ways to travel."
+          "evidence": "There are many ways to travel.",
+          "choiceMeanings": [
+            "How we travel",
+            "Why we travel",
+            "When we travel",
+            "Where we travel"
+          ]
         },
         {
           "id": "U1-R1-2",
@@ -297,7 +375,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 땅으로 이동할 때 버스나 기차를 이용한다고 했습니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "Use buses or trains."
+          "evidence": "Use buses or trains.",
+          "choiceMeanings": [
+            "버스나 기차",
+            "페리나 배",
+            "비행기들 오직",
+            "헬리콥터들 오직"
+          ]
         },
         {
           "id": "U1-R1-3",
@@ -315,7 +399,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "버스와 기차는 땅을 가로질러 이동합니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "They move across land."
+          "evidence": "They move across land.",
+          "choiceMeanings": [
+            "물을 가로질러",
+            "공기를 통과하여",
+            "땅을 가로질러",
+            "그 sea 아래에"
+          ]
         },
         {
           "id": "U1-R1-4",
@@ -333,7 +423,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "물 위로 이동할 때는 페리나 보트를 이용합니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "Use ferries or boats."
+          "evidence": "Use ferries or boats.",
+          "choiceMeanings": [
+            "버스나 기차",
+            "페리나 배",
+            "자동차들 또는 taxis",
+            "비행기나 헬리콥터"
+          ]
         },
         {
           "id": "U1-R1-5",
@@ -351,7 +447,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "페리와 보트는 물을 가로질러 이동합니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "They move across water."
+          "evidence": "They move across water.",
+          "choiceMeanings": [
+            "땅을 가로질러",
+            "물을 가로질러",
+            "공기를 통과하여",
+            "그 station 안에/에서"
+          ]
         },
         {
           "id": "U1-R1-6",
@@ -369,7 +471,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 비행기나 헬리콥터를 이용하는 것이 멋진 여행 방법이라고 했습니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "That's using airplanes or helicopters."
+          "evidence": "That's using airplanes or helicopters.",
+          "choiceMeanings": [
+            "using 비행기들 또는 헬리콥터들",
+            "using 오직 버스들",
+            "Walking to school",
+            "riding 자전거"
+          ]
         },
         {
           "id": "U1-R1-7",
@@ -387,7 +495,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "비행기와 헬리콥터는 하늘을 날아갑니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "They fly through the air."
+          "evidence": "They fly through the air.",
+          "choiceMeanings": [
+            "페리들 그리고 배들",
+            "버스들 그리고 기차들",
+            "비행기나 헬리콥터",
+            "자동차들 그리고 taxis"
+          ]
         },
         {
           "id": "U1-R1-8",
@@ -405,7 +519,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "물을 건너갈 때는 본문에 나온 ferries or boats가 알맞습니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "Use ferries or boats. They move across water."
+          "evidence": "Use ferries or boats. They move across water.",
+          "choiceMeanings": [
+            "나룻배, 페리",
+            "기차",
+            "버스",
+            "택시"
+          ]
         },
         {
           "id": "U1-R1-9",
@@ -423,7 +543,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "through the air는 하늘을 날아 이동한다는 뜻이므로 비행기와 헬리콥터가 맞습니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "They fly through the air."
+          "evidence": "They fly through the air.",
+          "choiceMeanings": [
+            "버스, 기차",
+            "나룻배, 페리, 배",
+            "비행기, 헬리콥터",
+            "택시, 자전거"
+          ]
         },
         {
           "id": "U1-R1-10",
@@ -441,7 +567,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문 마지막에서 어떤 방법으로 여행하고 싶은지 묻습니다.",
           "readingTitle": "Ways to Travel",
-          "evidence": "Which way do you want to travel?"
+          "evidence": "Which way do you want to travel?",
+          "choiceMeanings": [
+            "Which way do you want to travel?",
+            "What time is it?",
+            "Where is Rosa?",
+            "can you ride 자전거"
+          ]
         },
         {
           "id": "U1-R2-1",
@@ -459,7 +591,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "처음에 Rosa의 가족은 택시 안에 있습니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Rosa's family is in the taxi."
+          "evidence": "Rosa's family is in the taxi.",
+          "choiceMeanings": [
+            "그 택시 안에/에서",
+            "at 그 버스 정류장",
+            "그 비행기 위에/에서",
+            "그 자전거 위에/에서"
+          ]
         },
         {
           "id": "U1-R2-2",
@@ -477,7 +615,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "Rosa는 반복해서 늦을 것 같다고 말합니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "\"We're going to be late!\" says Rosa."
+          "evidence": "\"We're going to be late!\" says Rosa.",
+          "choiceMeanings": [
+            "우리는 제시간에 도착했어!",
+            "우리는 늦을 거야!",
+            "버스를 타자!",
+            "걱정하지 마!"
+          ]
         },
         {
           "id": "U1-R2-3",
@@ -495,7 +639,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "도로에는 차가 너무 많았습니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Too many cars are on the road."
+          "evidence": "Too many cars are on the road.",
+          "choiceMeanings": [
+            "너무 많은 자동차",
+            "너무 많은 배들",
+            "너무 많은 planes",
+            "너무 많은 bikes"
+          ]
         },
         {
           "id": "U1-R2-4",
@@ -513,7 +663,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "엄마는 버스를 타자고 말합니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "\"Let's ride a bus!\" says Mom."
+          "evidence": "\"Let's ride a bus!\" says Mom.",
+          "choiceMeanings": [
+            "버스를 타자!",
+            "택시를 타자!",
+            "Let's walk home!",
+            "Let's sleep!"
+          ]
         },
         {
           "id": "U1-R2-5",
@@ -531,7 +687,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "버스 정류장에는 사람이 너무 많았습니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Too many people are at the bus stop."
+          "evidence": "Too many people are at the bus stop.",
+          "choiceMeanings": [
+            "너무 많은 사람들",
+            "너무 많은 자동차",
+            "너무 많은 planes",
+            "너무 많은 배들"
+          ]
         },
         {
           "id": "U1-R2-6",
@@ -549,7 +711,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "아빠는 Rosa에게 걱정하지 말라고 말합니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "\"Don't worry,\" says Dad."
+          "evidence": "\"Don't worry,\" says Dad.",
+          "choiceMeanings": [
+            "걱정하지 마.",
+            "ride 택시",
+            "우리는 are late",
+            "정류장 shouting"
+          ]
         },
         {
           "id": "U1-R2-7",
@@ -567,7 +735,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "마지막에 Rosa의 가족은 비행기에 탑니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Rosa's family gets on the plane!"
+          "evidence": "Rosa's family gets on the plane!",
+          "choiceMeanings": [
+            "그 버스",
+            "그 택시",
+            "그 비행기",
+            "그 자전거"
+          ]
         },
         {
           "id": "U1-R2-8",
@@ -585,7 +759,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "도로에 차가 많자 엄마는 버스를 타자고 합니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Too many cars are on the road. \"Let's ride a bus!\" says Mom."
+          "evidence": "Too many cars are on the road. \"Let's ride a bus!\" says Mom.",
+          "choiceMeanings": [
+            "버스",
+            "배",
+            "헬리콥터",
+            "나룻배, 페리"
+          ]
         },
         {
           "id": "U1-R2-9",
@@ -603,7 +783,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "버스 정류장에 사람이 너무 많아서 버스를 쉽게 탈 수 없습니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "Too many people are at the bus stop."
+          "evidence": "Too many people are at the bus stop.",
+          "choiceMeanings": [
+            "버스 정류장에 사람이 너무 많다.",
+            "그 버스 is in 그 물",
+            "그 버스 is too 작은",
+            "그 비행기 is late"
+          ]
         },
         {
           "id": "U1-R2-10",
@@ -621,7 +807,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "on time은 제시간에 맞췄다는 뜻입니다.",
           "readingTitle": "We're on Time!",
-          "evidence": "\"Hooray!\" shouts Rosa. \"We are on time!\""
+          "evidence": "\"Hooray!\" shouts Rosa. \"We are on time!\"",
+          "choiceMeanings": [
+            "그들은 arrive early enough",
+            "그들은 are lost",
+            "그들은 are sleeping",
+            "그들은 are still in 그 택시"
+          ]
         }
       ]
     },
@@ -692,7 +884,14 @@ export const quizBook: QuizBook = {
             "roof"
           ],
           "answerIndex": 1,
-          "explanationKo": "flutter는 새나 곤충의 날개처럼 가볍고 빠르게 움직인다는 뜻입니다."
+          "explanationKo": "flutter는 새나 곤충의 날개처럼 가볍고 빠르게 움직인다는 뜻입니다.",
+          "choiceMeanings": [
+            "흔들다",
+            "펄럭이다",
+            "잡고 있다, 유지하다",
+            "지붕"
+          ],
+          "hintKo": "새나 곤충의 날개처럼 가볍고 빠르게 움직인다는 뜻입니다."
         },
         {
           "id": "U2-V1-2",
@@ -708,7 +907,14 @@ export const quizBook: QuizBook = {
             "roof"
           ],
           "answerIndex": 0,
-          "explanationKo": "shake는 짧고 빠르게 앞뒤나 위아래로 흔든다는 뜻입니다."
+          "explanationKo": "shake는 짧고 빠르게 앞뒤나 위아래로 흔든다는 뜻입니다.",
+          "choiceMeanings": [
+            "흔들다",
+            "연",
+            "깃발",
+            "지붕"
+          ],
+          "hintKo": "짧고 빠르게 앞뒤나 위아래로 흔든다는 뜻입니다."
         },
         {
           "id": "U2-V1-3",
@@ -724,7 +930,14 @@ export const quizBook: QuizBook = {
             "inside out"
           ],
           "answerIndex": 1,
-          "explanationKo": "hold는 어떤 것을 특정한 위치나 장소에 있게 한다는 뜻입니다."
+          "explanationKo": "hold는 어떤 것을 특정한 위치나 장소에 있게 한다는 뜻입니다.",
+          "choiceMeanings": [
+            "lift",
+            "잡고 있다, 유지하다",
+            "펄럭이다",
+            "inside out"
+          ],
+          "hintKo": "어떤 것을 특정한 위치나 장소에 있게 한다는 뜻입니다."
         },
         {
           "id": "U2-V1-4",
@@ -740,7 +953,14 @@ export const quizBook: QuizBook = {
             "roof"
           ],
           "answerIndex": 0,
-          "explanationKo": "kite는 바람에 날리는 가벼운 장난감인 연을 뜻합니다."
+          "explanationKo": "kite는 바람에 날리는 가벼운 장난감인 연을 뜻합니다.",
+          "choiceMeanings": [
+            "연",
+            "깃발",
+            "우산",
+            "지붕"
+          ],
+          "hintKo": "바람에 날리는 가벼운 장난감인 연을 뜻합니다."
         },
         {
           "id": "U2-V1-5",
@@ -756,7 +976,14 @@ export const quizBook: QuizBook = {
             "activity"
           ],
           "answerIndex": 0,
-          "explanationKo": "lift는 무언가를 위로 들어 올리다는 뜻입니다."
+          "explanationKo": "lift는 무언가를 위로 들어 올리다는 뜻입니다.",
+          "choiceMeanings": [
+            "lift",
+            "즐기다",
+            "jogging",
+            "activity"
+          ],
+          "hintKo": "무언가를 위로 들어 올리다는 뜻입니다."
         },
         {
           "id": "U2-V2-1",
@@ -772,7 +999,14 @@ export const quizBook: QuizBook = {
             "gentle"
           ],
           "answerIndex": 0,
-          "explanationKo": "fisherman은 물고기를 잡는 사람, 즉 어부를 뜻합니다."
+          "explanationKo": "fisherman은 물고기를 잡는 사람, 즉 어부를 뜻합니다.",
+          "choiceMeanings": [
+            "어부",
+            "날씨",
+            "약속하다",
+            "부드러운"
+          ],
+          "hintKo": "물고기를 잡는 사람, 즉 어부를 뜻합니다."
         },
         {
           "id": "U2-V2-2",
@@ -788,7 +1022,14 @@ export const quizBook: QuizBook = {
             "fish"
           ],
           "answerIndex": 0,
-          "explanationKo": "weather는 햇빛, 비, 바람, 구름 등 바깥의 상태인 날씨를 뜻합니다."
+          "explanationKo": "weather는 햇빛, 비, 바람, 구름 등 바깥의 상태인 날씨를 뜻합니다.",
+          "choiceMeanings": [
+            "날씨",
+            "구멍",
+            "catch",
+            "물고기"
+          ],
+          "hintKo": "햇빛, 비, 바람, 구름 등 바깥의 상태인 날씨를 뜻합니다."
         },
         {
           "id": "U2-V2-3",
@@ -804,7 +1045,14 @@ export const quizBook: QuizBook = {
             "blow"
           ],
           "answerIndex": 1,
-          "explanationKo": "promise는 어떤 일을 꼭 하겠다고 말하는 것, 즉 약속하다는 뜻입니다."
+          "explanationKo": "promise는 어떤 일을 꼭 하겠다고 말하는 것, 즉 약속하다는 뜻입니다.",
+          "choiceMeanings": [
+            "잊다",
+            "약속하다",
+            "catch",
+            "blow"
+          ],
+          "hintKo": "어떤 일을 꼭 하겠다고 말하는 것, 즉 약속하다는 뜻입니다."
         },
         {
           "id": "U2-V2-4",
@@ -820,7 +1068,14 @@ export const quizBook: QuizBook = {
             "many"
           ],
           "answerIndex": 1,
-          "explanationKo": "gentle은 차분하고 부드럽거나 세지 않다는 뜻입니다."
+          "explanationKo": "gentle은 차분하고 부드럽거나 세지 않다는 뜻입니다.",
+          "choiceMeanings": [
+            "강한",
+            "부드러운",
+            "더운",
+            "many"
+          ],
+          "hintKo": "차분하고 부드럽거나 세지 않다는 뜻입니다."
         },
         {
           "id": "U2-V2-5",
@@ -836,7 +1091,14 @@ export const quizBook: QuizBook = {
             "die"
           ],
           "answerIndex": 1,
-          "explanationKo": "forget은 과거의 정보를 기억하지 못하다, 즉 잊다는 뜻입니다."
+          "explanationKo": "forget은 과거의 정보를 기억하지 못하다, 즉 잊다는 뜻입니다.",
+          "choiceMeanings": [
+            "약속하다",
+            "잊다",
+            "happen",
+            "die"
+          ],
+          "hintKo": "과거의 정보를 기억하지 못하다, 즉 잊다는 뜻입니다."
         },
         {
           "id": "U2-R1-1",
@@ -854,7 +1116,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 3,
           "explanationKo": "본문에서 바람은 움직이는 공기라고 설명합니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Wind is moving air."
+          "evidence": "Wind is moving air.",
+          "choiceMeanings": [
+            "내리는 비",
+            "밝은 햇빛",
+            "부드러운 구름",
+            "움직이는 공기"
+          ]
         },
         {
           "id": "U2-R1-2",
@@ -872,7 +1140,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에 우리는 바람을 볼 수 없다고 나옵니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "We can't see the wind."
+          "evidence": "We can't see the wind.",
+          "choiceMeanings": [
+            "Yes, 우리는 can",
+            "No, 우리는 can't",
+            "오직 at night.",
+            "오직 summer. 안에/에서"
+          ]
         },
         {
           "id": "U2-R1-3",
@@ -890,7 +1164,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에서 바람은 깃발을 펄럭이게 한다고 했습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Wind makes flags flutter."
+          "evidence": "Wind makes flags flutter.",
+          "choiceMeanings": [
+            "가만히 있다",
+            "펄럭이다",
+            "Disappear",
+            "색이 변하다"
+          ]
         },
         {
           "id": "U2-R1-4",
@@ -908,7 +1188,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 바람은 연을 하늘에 떠 있게 한다고 했습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Wind holds kites in the sky."
+          "evidence": "Wind holds kites in the sky.",
+          "choiceMeanings": [
+            "연들",
+            "잎들",
+            "지붕들",
+            "우산들"
+          ]
         },
         {
           "id": "U2-R1-5",
@@ -926,7 +1212,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에서 바람은 나무의 잎을 흔든다고 했습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Wind shakes leaves on trees."
+          "evidence": "Wind shakes leaves on trees.",
+          "choiceMeanings": [
+            "집들",
+            "잎들",
+            "연들",
+            "깃발들"
+          ]
         },
         {
           "id": "U2-R1-6",
@@ -944,7 +1236,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에서 강한 바람은 우산을 뒤집을 수 있다고 했습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Strong wind turns an umbrella inside out."
+          "evidence": "Strong wind turns an umbrella inside out.",
+          "choiceMeanings": [
+            "keep it 마른",
+            "그것을 뒤집다",
+            "Make it bigger",
+            "Break it into pieces"
+          ]
         },
         {
           "id": "U2-R1-7",
@@ -962,7 +1260,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "본문에서 매우 빠른 바람은 집의 지붕을 날려 보낼 수 있다고 했습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Very fast wind can lift a roof off a house!"
+          "evidence": "Very fast wind can lift a roof off a house!",
+          "choiceMeanings": [
+            "door",
+            "window",
+            "지붕",
+            "나무"
+          ]
         },
         {
           "id": "U2-R1-8",
@@ -980,7 +1284,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "바람 자체는 볼 수 없지만, 바람이 하는 일을 보고 알 수 있습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "But we can see what the wind does."
+          "evidence": "But we can see what the wind does.",
+          "choiceMeanings": [
+            "우리는 see what 그 바람 does",
+            "우리는 touch 그 태양",
+            "우리는 hear 그 구름",
+            "우리는 count 그 stars"
+          ]
         },
         {
           "id": "U2-R1-9",
@@ -998,7 +1308,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문의 예시 중 바람은 깃발을 펄럭이게 합니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Wind makes flags flutter."
+          "evidence": "Wind makes flags flutter.",
+          "choiceMeanings": [
+            "make 깃발들 flutter",
+            "make 그 태양 shine",
+            "Make rocks grow",
+            "make 물고기 sleep"
+          ]
         },
         {
           "id": "U2-R1-10",
@@ -1016,7 +1332,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "매우 빠른 바람이 불면 집의 지붕이 날아갈 수 있습니다.",
           "readingTitle": "Wind Blows!",
-          "evidence": "Very fast wind can lift a roof off a house!"
+          "evidence": "Very fast wind can lift a roof off a house!",
+          "choiceMeanings": [
+            "지붕 can lift off 집",
+            "잎들 become flowers",
+            "그 sky turns 검은색",
+            "연들 fall into 물"
+          ]
         },
         {
           "id": "U2-R2-1",
@@ -1034,7 +1356,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에서 바람이 너무 강해서 어부가 물고기를 잡을 수 없다고 했습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "Wind blows too strong. Fisherman cannot fish."
+          "evidence": "Wind blows too strong. Fisherman cannot fish.",
+          "choiceMeanings": [
+            "그 물고기 are too 작은",
+            "그 바람은 is too 강한",
+            "그 날씨 is too 차가운",
+            "그 어부 is too tired"
+          ]
         },
         {
           "id": "U2-R2-2",
@@ -1052,7 +1380,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "본문에서 어부는 Wind를 구멍에 넣었습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "He puts Wind in a hole."
+          "evidence": "He puts Wind in a hole.",
+          "choiceMeanings": [
+            "pond 안에/에서",
+            "배 안에/에서",
+            "구멍 안에/에서",
+            "집 안에/에서"
+          ]
         },
         {
           "id": "U2-R2-3",
@@ -1070,7 +1404,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "바람이 불지 않자 어부는 물고기를 많이 잡았습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "Now, Wind doesn't blow. Fisherman catches many fish."
+          "evidence": "Now, Wind doesn't blow. Fisherman catches many fish.",
+          "choiceMeanings": [
+            "어부 catches many 물고기",
+            "그 물고기 fly away",
+            "it starts to 눈",
+            "그 배 breaks"
+          ]
         },
         {
           "id": "U2-R2-4",
@@ -1088,7 +1428,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 2,
           "explanationKo": "시간이 지나자 날씨가 너무 더워졌습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "The weather is too hot."
+          "evidence": "The weather is too hot.",
+          "choiceMeanings": [
+            "너무 차가운",
+            "너무 windy",
+            "너무 더운",
+            "너무 rainy"
+          ]
         },
         {
           "id": "U2-R2-5",
@@ -1106,7 +1452,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "본문에서 물고기들이 죽기 시작했다고 했습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "The fish begin to die."
+          "evidence": "The fish begin to die.",
+          "choiceMeanings": [
+            "그 나무들",
+            "그 물고기들",
+            "그 birds",
+            "그 flowers"
+          ]
         },
         {
           "id": "U2-R2-6",
@@ -1124,7 +1476,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "Wind는 부드러운 바람을 만들겠다고 약속했습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "Wind promises to make gentle wind."
+          "evidence": "Wind promises to make gentle wind.",
+          "choiceMeanings": [
+            "강한 비",
+            "부드러운 바람",
+            "차가운 눈",
+            "큰 구멍"
+          ]
         },
         {
           "id": "U2-R2-7",
@@ -1142,7 +1500,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "Wind는 자신의 약속을 잊었습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "But Wind forgets his promise."
+          "evidence": "But Wind forgets his promise.",
+          "choiceMeanings": [
+            "그의 배",
+            "그의 약속",
+            "그 어부",
+            "그 물고기들"
+          ]
         },
         {
           "id": "U2-R2-8",
@@ -1160,7 +1524,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "어부는 바람이 너무 강해서 물고기를 잡지 못했습니다. Wind를 구멍에 넣자 바람이 멈추고 물고기를 많이 잡았습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "He puts Wind in a hole. Now, Wind doesn't blow. Fisherman catches many fish."
+          "evidence": "He puts Wind in a hole. Now, Wind doesn't blow. Fisherman catches many fish.",
+          "choiceMeanings": [
+            "물고기를 잡기 위해",
+            "비가 오게 하기 위해",
+            "날씨를 더 춥게 하기 위해",
+            "파도를 멈추기 위해"
+          ]
         },
         {
           "id": "U2-R2-9",
@@ -1178,7 +1548,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "어부가 Wind를 구멍에서 꺼낸 뒤, Wind는 자신의 약속을 잊었습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "Fisherman takes Wind out of the hole. But Wind forgets his promise."
+          "evidence": "Fisherman takes Wind out of the hole. But Wind forgets his promise.",
+          "choiceMeanings": [
+            "바람은 keeps his 약속",
+            "바람은 forgets his 약속",
+            "그 물고기 become 큰",
+            "그 어부 goes to sleep"
+          ]
         },
         {
           "id": "U2-R2-10",
@@ -1196,7 +1572,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 1,
           "explanationKo": "이야기에서 Wind가 약속을 잊어서 다시 강한 바람이 불게 되므로, 약속을 지키는 것이 중요하다는 점을 알 수 있습니다.",
           "readingTitle": "Fisherman and Wind",
-          "evidence": "Wind promises to make gentle wind. But Wind forgets his promise."
+          "evidence": "Wind promises to make gentle wind. But Wind forgets his promise.",
+          "choiceMeanings": [
+            "바람은 절대 불면 안 된다.",
+            "약속을 지키는 것은 중요하다.",
+            "물고기는 구멍에서 살아야 한다.",
+            "어부는 물고기를 잡으면 안 된다."
+          ]
         }
       ]
     },
@@ -1260,7 +1642,14 @@ export const quizBook: QuizBook = {
             "touch"
           ],
           "answerIndex": 0,
-          "explanationKo": "insect의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "insect의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "곤충",
+            "경고",
+            "enemy",
+            "만지다"
+          ],
+          "hintKo": "insect의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V2",
@@ -1276,7 +1665,14 @@ export const quizBook: QuizBook = {
             "touch"
           ],
           "answerIndex": 1,
-          "explanationKo": "warning의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "warning의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "곤충",
+            "경고",
+            "enemy",
+            "만지다"
+          ],
+          "hintKo": "warning의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V3",
@@ -1292,7 +1688,14 @@ export const quizBook: QuizBook = {
             "touch"
           ],
           "answerIndex": 2,
-          "explanationKo": "enemy의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "enemy의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "곤충",
+            "경고",
+            "enemy",
+            "만지다"
+          ],
+          "hintKo": "enemy의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V4",
@@ -1308,7 +1711,14 @@ export const quizBook: QuizBook = {
             "touch"
           ],
           "answerIndex": 3,
-          "explanationKo": "touch의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "touch의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "곤충",
+            "경고",
+            "enemy",
+            "만지다"
+          ],
+          "hintKo": "touch의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V5",
@@ -1324,7 +1734,14 @@ export const quizBook: QuizBook = {
             "enemy"
           ],
           "answerIndex": 0,
-          "explanationKo": "sound의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "sound의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "소리",
+            "곤충",
+            "경고",
+            "enemy"
+          ],
+          "hintKo": "sound의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V6",
@@ -1340,7 +1757,14 @@ export const quizBook: QuizBook = {
             "gather"
           ],
           "answerIndex": 0,
-          "explanationKo": "queen의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "queen의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "여왕",
+            "군인",
+            "daughter",
+            "gather"
+          ],
+          "hintKo": "queen의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V7",
@@ -1356,7 +1780,14 @@ export const quizBook: QuizBook = {
             "gather"
           ],
           "answerIndex": 1,
-          "explanationKo": "soldier의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "soldier의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "여왕",
+            "군인",
+            "daughter",
+            "gather"
+          ],
+          "hintKo": "soldier의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V8",
@@ -1372,7 +1803,14 @@ export const quizBook: QuizBook = {
             "gather"
           ],
           "answerIndex": 2,
-          "explanationKo": "daughter의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "daughter의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "여왕",
+            "군인",
+            "daughter",
+            "gather"
+          ],
+          "hintKo": "daughter의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V9",
@@ -1388,7 +1826,14 @@ export const quizBook: QuizBook = {
             "gather"
           ],
           "answerIndex": 3,
-          "explanationKo": "gather의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "gather의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "여왕",
+            "군인",
+            "daughter",
+            "gather"
+          ],
+          "hintKo": "gather의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-V10",
@@ -1404,7 +1849,14 @@ export const quizBook: QuizBook = {
             "daughter"
           ],
           "answerIndex": 0,
-          "explanationKo": "defend의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "defend의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "defend",
+            "여왕",
+            "군인",
+            "daughter"
+          ],
+          "hintKo": "defend의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-3-insects-R1-1",
@@ -1422,7 +1874,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 곤충도 서로 이야기한다고 했습니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Insects talk to each other, too."
+          "evidence": "Insects talk to each other, too.",
+          "choiceMeanings": [
+            "그들은 talk to each other",
+            "그들은 sleep all day",
+            "그들은 draw pictures",
+            "그들은 build 자동차들"
+          ]
         },
         {
           "id": "unit-3-insects-R1-2",
@@ -1440,7 +1898,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "곤충은 먹이가 어디 있는지 이야기합니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Insects talk about where food is."
+          "evidence": "Insects talk about where food is.",
+          "choiceMeanings": [
+            "where 음식 is",
+            "How to read books",
+            "How to swim",
+            "Where toys are"
+          ]
         },
         {
           "id": "unit-3-insects-R1-3",
@@ -1458,7 +1922,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "곤충은 적에 대한 경고를 줍니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "They talk to give warnings about enemies."
+          "evidence": "They talk to give warnings about enemies.",
+          "choiceMeanings": [
+            "Enemies",
+            "집들",
+            "Books",
+            "Rainbows"
+          ]
         },
         {
           "id": "unit-3-insects-R1-4",
@@ -1476,7 +1946,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 곤충은 사람처럼 말하지 않는다고 했습니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "But they do not talk like people."
+          "evidence": "But they do not talk like people.",
+          "choiceMeanings": [
+            "No, 그들은 do not",
+            "Yes, 그들은 do",
+            "오직 at night.",
+            "오직 class. 안에/에서"
+          ]
         },
         {
           "id": "unit-3-insects-R1-5",
@@ -1494,7 +1970,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "개미는 다른 개미를 만지며 이야기합니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Ants touch other ants."
+          "evidence": "Ants touch other ants.",
+          "choiceMeanings": [
+            "그들은 touch other 개미들",
+            "그들은 sing songs",
+            "그들은 write notes",
+            "그들은 paint pictures"
+          ]
         },
         {
           "id": "unit-3-insects-R1-6",
@@ -1512,7 +1994,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "귀뚜라미는 소리를 냅니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Crickets make sounds."
+          "evidence": "Crickets make sounds.",
+          "choiceMeanings": [
+            "소리들",
+            "Cameras",
+            "정사각형들",
+            "대나무"
+          ]
         },
         {
           "id": "unit-3-insects-R1-7",
@@ -1530,7 +2018,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "반딧불이는 빛을 냅니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Fireflies flash light."
+          "evidence": "Fireflies flash light.",
+          "choiceMeanings": [
+            "빛",
+            "물",
+            "고기",
+            "Dust"
+          ]
         },
         {
           "id": "unit-3-insects-R1-8",
@@ -1548,7 +2042,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문의 “Insects talk to each other, too.”를 질문형으로 바꾼 문제입니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Insects talk to each other, too."
+          "evidence": "Insects talk to each other, too.",
+          "choiceMeanings": [
+            "can 곤충들 communicate",
+            "can 곤충들 cook",
+            "can 곤충들 paint",
+            "can 곤충들 drive"
+          ]
         },
         {
           "id": "unit-3-insects-R1-9",
@@ -1566,7 +2066,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문의 핵심 개념은 곤충마다 다른 방식으로 이야기한다는 점입니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "Fireflies flash light."
+          "evidence": "Fireflies flash light.",
+          "choiceMeanings": [
+            "반딧불이들",
+            "개미들",
+            "귀뚜라미들",
+            "Butterflies"
+          ]
         },
         {
           "id": "unit-3-insects-R1-10",
@@ -1584,7 +2090,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "마지막 문장에서 곤충을 보면 보고 들으라고 했습니다.",
           "readingTitle": "Insects Talk Too!",
-          "evidence": "The next time you see an insect, watch and listen."
+          "evidence": "The next time you see an insect, watch and listen.",
+          "choiceMeanings": [
+            "Watch 그리고 listen",
+            "Run away",
+            "Close your book",
+            "Go to sleep"
+          ]
         },
         {
           "id": "unit-3-insects-R2-1",
@@ -1602,7 +2114,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "개미는 무리 지어 삽니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "Ants live in groups."
+          "evidence": "Ants live in groups.",
+          "choiceMeanings": [
+            "무리들 안에/에서",
+            "Alone",
+            "그 ocean 안에/에서",
+            "자동차들 안에/에서"
+          ]
         },
         {
           "id": "unit-3-insects-R2-2",
@@ -1620,7 +2138,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 네 종류의 개미가 있다고 했습니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "There are four kinds of ants in their group."
+          "evidence": "There are four kinds of ants in their group.",
+          "choiceMeanings": [
+            "Four",
+            "One",
+            "Two",
+            "Six"
+          ]
         },
         {
           "id": "unit-3-insects-R2-3",
@@ -1638,7 +2162,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "여왕개미가 알을 낳습니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "The queen lays eggs."
+          "evidence": "The queen lays eggs.",
+          "choiceMeanings": [
+            "그 여왕",
+            "그 일꾼",
+            "그 군인",
+            "그 수컷"
+          ]
         },
         {
           "id": "unit-3-insects-R2-4",
@@ -1656,7 +2186,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "일개미는 여왕의 딸입니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "Workers are the queen’s daughters."
+          "evidence": "Workers are the queen’s daughters.",
+          "choiceMeanings": [
+            "Workers",
+            "Males",
+            "Enemies",
+            "귀뚜라미들"
+          ]
         },
         {
           "id": "unit-3-insects-R2-5",
@@ -1674,7 +2210,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "일개미는 먹이를 모읍니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "They build houses and gather food."
+          "evidence": "They build houses and gather food.",
+          "choiceMeanings": [
+            "음식",
+            "Cameras",
+            "초상화들",
+            "눈"
+          ]
         },
         {
           "id": "unit-3-insects-R2-6",
@@ -1692,7 +2234,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "병정개미는 집을 지킵니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "They defend houses and fight enemies."
+          "evidence": "They defend houses and fight enemies.",
+          "choiceMeanings": [
+            "집들",
+            "비행기들",
+            "연들",
+            "사과들"
+          ]
         },
         {
           "id": "unit-3-insects-R2-7",
@@ -1710,7 +2258,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "수개미는 여왕개미와 짝짓기하여 알을 낳게 합니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "Males mate with the queen to produce eggs."
+          "evidence": "Males mate with the queen to produce eggs.",
+          "choiceMeanings": [
+            "Mate to produce eggs",
+            "build 집들",
+            "flash 빛",
+            "wipe 눈"
+          ]
         },
         {
           "id": "unit-3-insects-R2-8",
@@ -1728,7 +2282,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "집을 지키고 적과 싸우는 개미는 병정개미입니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "They defend houses and fight enemies."
+          "evidence": "They defend houses and fight enemies.",
+          "choiceMeanings": [
+            "군인",
+            "여왕",
+            "수컷",
+            "반딧불이"
+          ]
         },
         {
           "id": "unit-3-insects-R2-9",
@@ -1746,7 +2306,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "여왕개미는 알을 낳기 때문에 중요합니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "The queen lays eggs."
+          "evidence": "The queen lays eggs.",
+          "choiceMeanings": [
+            "왜냐하면 그녀는 lays eggs",
+            "왜냐하면 그녀는 gathers 음식",
+            "왜냐하면 그녀는 makes 소리들",
+            "왜냐하면 그녀는 flashes 빛"
+          ]
         },
         {
           "id": "unit-3-insects-R2-10",
@@ -1764,7 +2330,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 일개미는 집을 짓고 먹이를 모은다고 했습니다.",
           "readingTitle": "Ants Live in Groups",
-          "evidence": "They build houses and gather food."
+          "evidence": "They build houses and gather food.",
+          "choiceMeanings": [
+            "gather 음식",
+            "Lay eggs",
+            "Fly away",
+            "Paint pictures"
+          ]
         }
       ]
     },
@@ -1832,7 +2404,14 @@ export const quizBook: QuizBook = {
             "handprint"
           ],
           "answerIndex": 0,
-          "explanationKo": "draw의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "draw의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "draw",
+            "think",
+            "right",
+            "손도장"
+          ],
+          "hintKo": "draw의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V2",
@@ -1848,7 +2427,14 @@ export const quizBook: QuizBook = {
             "handprint"
           ],
           "answerIndex": 1,
-          "explanationKo": "think의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "think의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "draw",
+            "think",
+            "right",
+            "손도장"
+          ],
+          "hintKo": "think의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V3",
@@ -1864,7 +2450,14 @@ export const quizBook: QuizBook = {
             "handprint"
           ],
           "answerIndex": 2,
-          "explanationKo": "right의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "right의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "draw",
+            "think",
+            "right",
+            "손도장"
+          ],
+          "hintKo": "right의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V4",
@@ -1880,7 +2473,14 @@ export const quizBook: QuizBook = {
             "handprint"
           ],
           "answerIndex": 3,
-          "explanationKo": "handprint의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "handprint의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "draw",
+            "think",
+            "right",
+            "손도장"
+          ],
+          "hintKo": "handprint의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V5",
@@ -1896,7 +2496,14 @@ export const quizBook: QuizBook = {
             "right"
           ],
           "answerIndex": 0,
-          "explanationKo": "spot의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "spot의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "점",
+            "draw",
+            "think",
+            "right"
+          ],
+          "hintKo": "spot의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V6",
@@ -1912,7 +2519,14 @@ export const quizBook: QuizBook = {
             "rectangle"
           ],
           "answerIndex": 0,
-          "explanationKo": "artist의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "artist의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "화가, 예술가",
+            "different",
+            "모양",
+            "직사각형"
+          ],
+          "hintKo": "artist의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V7",
@@ -1928,7 +2542,14 @@ export const quizBook: QuizBook = {
             "rectangle"
           ],
           "answerIndex": 1,
-          "explanationKo": "different의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "different의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "화가, 예술가",
+            "different",
+            "모양",
+            "직사각형"
+          ],
+          "hintKo": "different의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V8",
@@ -1944,7 +2565,14 @@ export const quizBook: QuizBook = {
             "rectangle"
           ],
           "answerIndex": 2,
-          "explanationKo": "shape의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "shape의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "화가, 예술가",
+            "different",
+            "모양",
+            "직사각형"
+          ],
+          "hintKo": "shape의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V9",
@@ -1960,7 +2588,14 @@ export const quizBook: QuizBook = {
             "rectangle"
           ],
           "answerIndex": 3,
-          "explanationKo": "rectangle의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "rectangle의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "화가, 예술가",
+            "different",
+            "모양",
+            "직사각형"
+          ],
+          "hintKo": "rectangle의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-V10",
@@ -1976,7 +2611,14 @@ export const quizBook: QuizBook = {
             "shape"
           ],
           "answerIndex": 0,
-          "explanationKo": "circle의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "circle의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "원",
+            "화가, 예술가",
+            "different",
+            "모양"
+          ],
+          "hintKo": "circle의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-4-art-R1-1",
@@ -1994,7 +2636,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "오늘은 미술 수업입니다.",
           "readingTitle": "Art Class",
-          "evidence": "Today is art class."
+          "evidence": "Today is art class.",
+          "choiceMeanings": [
+            "Art class",
+            "Science class",
+            "Music class",
+            "Math class"
+          ]
         },
         {
           "id": "unit-4-art-R1-2",
@@ -2012,7 +2660,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Sam은 무엇을 그릴지 모릅니다.",
           "readingTitle": "Art Class",
-          "evidence": "Sam doesn’t know what to draw."
+          "evidence": "Sam doesn’t know what to draw.",
+          "choiceMeanings": [
+            "What to draw",
+            "What to eat",
+            "Where to go",
+            "How to swim"
+          ]
         },
         {
           "id": "unit-4-art-R1-3",
@@ -2030,7 +2684,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "선생님은 원하는 것을 그리라고 말합니다.",
           "readingTitle": "Art Class",
-          "evidence": "Draw anything you want"
+          "evidence": "Draw anything you want",
+          "choiceMeanings": [
+            "Anything he wants",
+            "오직 집",
+            "오직 flower",
+            "오직 버스"
+          ]
         },
         {
           "id": "unit-4-art-R1-4",
@@ -2048,7 +2708,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Sam은 오른손 자국을 종이 한쪽에 찍습니다.",
           "readingTitle": "Art Class",
-          "evidence": "He puts his right handprint on one side of the paper."
+          "evidence": "He puts his right handprint on one side of the paper.",
+          "choiceMeanings": [
+            "one side of 그 paper 위에/에서",
+            "그 table 아래에",
+            "그 wall 위에/에서",
+            "book 안에/에서"
+          ]
         },
         {
           "id": "unit-4-art-R1-5",
@@ -2066,7 +2732,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "눈으로 두 점을 더합니다.",
           "readingTitle": "Art Class",
-          "evidence": "He adds two spots for eyes."
+          "evidence": "He adds two spots for eyes.",
+          "choiceMeanings": [
+            "two 점들",
+            "two 삼각형들",
+            "Two clocks",
+            "two 잎들"
+          ]
         },
         {
           "id": "unit-4-art-R1-6",
@@ -2084,7 +2756,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "날개에 더 많은 색을 더합니다.",
           "readingTitle": "Art Class",
-          "evidence": "He adds more colors for wings."
+          "evidence": "He adds more colors for wings.",
+          "choiceMeanings": [
+            "Wings",
+            "집들",
+            "Books",
+            "Shoes"
+          ]
         },
         {
           "id": "unit-4-art-R1-7",
@@ -2102,7 +2780,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "선생님은 아름다운 나비라고 말합니다.",
           "readingTitle": "Art Class",
-          "evidence": "What a beautiful butterfly!"
+          "evidence": "What a beautiful butterfly!",
+          "choiceMeanings": [
+            "아름다운 butterfly",
+            "큰 집",
+            "무서운 bug",
+            "빨간색 사과"
+          ]
         },
         {
           "id": "unit-4-art-R1-8",
@@ -2120,7 +2804,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "손자국과 점, 색을 더해 나비를 만듭니다.",
           "readingTitle": "Art Class",
-          "evidence": "What a beautiful butterfly!"
+          "evidence": "What a beautiful butterfly!",
+          "choiceMeanings": [
+            "butterfly",
+            "버스",
+            "판다",
+            "초상화"
+          ]
         },
         {
           "id": "unit-4-art-R1-9",
@@ -2138,7 +2828,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "손자국을 찍은 다음 눈이 될 점을 더합니다.",
           "readingTitle": "Art Class",
-          "evidence": "He adds two spots for eyes."
+          "evidence": "He adds two spots for eyes.",
+          "choiceMeanings": [
+            "그는 adds two 점들 for 눈",
+            "그는 goes home",
+            "그는 eats 사과들",
+            "그는 rides 버스"
+          ]
         },
         {
           "id": "unit-4-art-R1-10",
@@ -2156,7 +2852,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "색을 더한 뒤 선생님이 아름다운 나비라고 칭찬합니다.",
           "readingTitle": "Art Class",
-          "evidence": "What a beautiful butterfly!"
+          "evidence": "What a beautiful butterfly!",
+          "choiceMeanings": [
+            "ms blair says it is 아름다운 butterfly",
+            "그 paper disappears",
+            "Sam cries.",
+            "그 class ends at once"
+          ]
         },
         {
           "id": "unit-4-art-R2-1",
@@ -2174,7 +2876,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "예술가들은 다양한 그림을 그립니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Artists draw different pictures."
+          "evidence": "Artists draw different pictures.",
+          "choiceMeanings": [
+            "Different pictures",
+            "오직 numbers",
+            "오직 음식",
+            "오직 clocks"
+          ]
         },
         {
           "id": "unit-4-art-R2-2",
@@ -2192,7 +2900,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "예술가들은 꽃이나 동물을 그릴 수 있습니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "They draw flowers or animals."
+          "evidence": "They draw flowers or animals.",
+          "choiceMeanings": [
+            "Flowers 또는 animals",
+            "오직 rocks",
+            "오직 버스들",
+            "오직 세균들"
+          ]
         },
         {
           "id": "unit-4-art-R2-3",
@@ -2210,7 +2924,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "어떤 예술가는 도형만 그립니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Some artists draw only shapes."
+          "evidence": "Some artists draw only shapes.",
+          "choiceMeanings": [
+            "도형들",
+            "고기",
+            "Paws",
+            "Roads"
+          ]
         },
         {
           "id": "unit-4-art-R2-4",
@@ -2228,7 +2948,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "한 그림에서는 직사각형만 보입니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "We only see rectangles."
+          "evidence": "We only see rectangles.",
+          "choiceMeanings": [
+            "직사각형들",
+            "원들",
+            "삼각형들",
+            "Stars"
+          ]
         },
         {
           "id": "unit-4-art-R2-5",
@@ -2246,7 +2972,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "두 번째 그림에는 여러 도형이 나옵니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Circles, rectangles, squares, and triangles!"
+          "evidence": "Circles, rectangles, squares, and triangles!",
+          "choiceMeanings": [
+            "원들, 직사각형들, 정사각형들,  그리고 삼각형들",
+            "오직 원들",
+            "오직 직사각형들",
+            "오직 삼각형들"
+          ]
         },
         {
           "id": "unit-4-art-R2-6",
@@ -2264,7 +2996,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "다양한 도형은 멋진 예술을 만듭니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Different shapes make wonderful art."
+          "evidence": "Different shapes make wonderful art.",
+          "choiceMeanings": [
+            "멋진 art",
+            "차가운 공기",
+            "버스 정류장",
+            "사과 소스"
+          ]
         },
         {
           "id": "unit-4-art-R2-7",
@@ -2282,7 +3020,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문에서 너도 예술가가 될 수 있다고 했습니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "You can be an artist, too."
+          "evidence": "You can be an artist, too.",
+          "choiceMeanings": [
+            "You",
+            "오직 Ms. Blair",
+            "오직 Sam",
+            "오직 왕"
+          ]
         },
         {
           "id": "unit-4-art-R2-8",
@@ -2300,7 +3044,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문의 핵심 개념은 도형도 예술이 될 수 있다는 것입니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Different shapes make wonderful art."
+          "evidence": "Different shapes make wonderful art.",
+          "choiceMeanings": [
+            "도형들",
+            "세균들",
+            "날씨",
+            "페리들"
+          ]
         },
         {
           "id": "unit-4-art-R2-9",
@@ -2318,7 +3068,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "너도 예술을 만들 수 있다는 뜻입니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "You can be an artist, too."
+          "evidence": "You can be an artist, too.",
+          "choiceMeanings": [
+            "너는/너의 can make art",
+            "너는/너의 cannot draw",
+            "오직 adults paint.",
+            "도형들 are not art"
+          ]
         },
         {
           "id": "unit-4-art-R2-10",
@@ -2336,7 +3092,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "여러 도형이 모이면 멋진 예술 작품이 됩니다.",
           "readingTitle": "Shapes Can Be Art",
-          "evidence": "Different shapes make wonderful art."
+          "evidence": "Different shapes make wonderful art.",
+          "choiceMeanings": [
+            "그들은 can make 멋진 art",
+            "그들은 become 세균들",
+            "그들은 become 눈",
+            "그들은 make 사람들 late"
+          ]
         }
       ]
     },
@@ -2405,7 +3167,14 @@ export const quizBook: QuizBook = {
             "claw"
           ],
           "answerIndex": 0,
-          "explanationKo": "belong의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "belong의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "belong",
+            "common 안에/에서",
+            "날카로운",
+            "발톱"
+          ],
+          "hintKo": "belong의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V2",
@@ -2421,7 +3190,14 @@ export const quizBook: QuizBook = {
             "claw"
           ],
           "answerIndex": 1,
-          "explanationKo": "in common의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "in common의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "belong",
+            "common 안에/에서",
+            "날카로운",
+            "발톱"
+          ],
+          "hintKo": "in common의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V3",
@@ -2437,7 +3213,14 @@ export const quizBook: QuizBook = {
             "claw"
           ],
           "answerIndex": 2,
-          "explanationKo": "sharp의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "sharp의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "belong",
+            "common 안에/에서",
+            "날카로운",
+            "발톱"
+          ],
+          "hintKo": "sharp의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V4",
@@ -2453,7 +3236,14 @@ export const quizBook: QuizBook = {
             "claw"
           ],
           "answerIndex": 3,
-          "explanationKo": "claw의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "claw의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "belong",
+            "common 안에/에서",
+            "날카로운",
+            "발톱"
+          ],
+          "hintKo": "claw의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V5",
@@ -2469,7 +3259,14 @@ export const quizBook: QuizBook = {
             "sharp"
           ],
           "answerIndex": 0,
-          "explanationKo": "bamboo의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "bamboo의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "대나무",
+            "belong",
+            "common 안에/에서",
+            "날카로운"
+          ],
+          "hintKo": "bamboo의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V6",
@@ -2485,7 +3282,14 @@ export const quizBook: QuizBook = {
             "cub"
           ],
           "answerIndex": 0,
-          "explanationKo": "snow의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "snow의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "눈",
+            "표범",
+            "겁주다",
+            "새끼"
+          ],
+          "hintKo": "snow의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V7",
@@ -2501,7 +3305,14 @@ export const quizBook: QuizBook = {
             "cub"
           ],
           "answerIndex": 1,
-          "explanationKo": "leopard의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "leopard의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "눈",
+            "표범",
+            "겁주다",
+            "새끼"
+          ],
+          "hintKo": "leopard의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V8",
@@ -2517,7 +3328,14 @@ export const quizBook: QuizBook = {
             "cub"
           ],
           "answerIndex": 2,
-          "explanationKo": "scare의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "scare의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "눈",
+            "표범",
+            "겁주다",
+            "새끼"
+          ],
+          "hintKo": "scare의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V9",
@@ -2533,7 +3351,14 @@ export const quizBook: QuizBook = {
             "cub"
           ],
           "answerIndex": 3,
-          "explanationKo": "cub의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "cub의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "눈",
+            "표범",
+            "겁주다",
+            "새끼"
+          ],
+          "hintKo": "cub의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-V10",
@@ -2549,7 +3374,14 @@ export const quizBook: QuizBook = {
             "scare"
           ],
           "answerIndex": 0,
-          "explanationKo": "cry의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "cry의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "cry",
+            "눈",
+            "표범",
+            "겁주다"
+          ],
+          "hintKo": "cry의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-5-giant-pandas-R1-1",
@@ -2567,7 +3399,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "판다의 이름은 Bao Bao입니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "Hi! My name is Bao Bao."
+          "evidence": "Hi! My name is Bao Bao.",
+          "choiceMeanings": [
+            "Bao Bao",
+            "Johnny",
+            "Sam",
+            "Rosa"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-2",
@@ -2585,7 +3423,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Bao Bao는 워싱턴 D.C.의 동물원에 삽니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "I live in a zoo in Washington, D.C."
+          "evidence": "I live in a zoo in Washington, D.C.",
+          "choiceMeanings": [
+            "zoo in Washington, D.C. 안에/에서",
+            "school 안에/에서",
+            "그 ocean 안에/에서",
+            "택시 안에/에서"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-3",
@@ -2603,7 +3447,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Bao Bao는 곰과에 속합니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "I belong to the bear family."
+          "evidence": "I belong to the bear family.",
+          "choiceMeanings": [
+            "그 bear 가족",
+            "그 bird 가족",
+            "그 ant 가족",
+            "그 물고기 가족"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-4",
@@ -2621,7 +3471,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "날카로운 이와 발톱을 가지고 있습니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "We have sharp teeth and claws."
+          "evidence": "We have sharp teeth and claws.",
+          "choiceMeanings": [
+            "sharp 이빨 그리고 발톱",
+            "Long wings",
+            "빨간색 사과들",
+            "Paintbrushes"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-5",
@@ -2639,7 +3495,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "나무에 오르는 것을 좋아합니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "We like to climb trees."
+          "evidence": "We like to climb trees.",
+          "choiceMeanings": [
+            "climb 나무들",
+            "ride 기차들",
+            "paint 초상화들",
+            "wash 손"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-6",
@@ -2657,7 +3519,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Bao Bao는 대나무를 먹습니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "I eat a plant called bamboo."
+          "evidence": "I eat a plant called bamboo.",
+          "choiceMeanings": [
+            "대나무",
+            "고기",
+            "사과 파이",
+            "물고기"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-7",
@@ -2675,7 +3543,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "마지막에 자신이 자이언트 판다라고 말합니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "I’m a giant panda!"
+          "evidence": "I’m a giant panda!",
+          "choiceMeanings": [
+            "자이언트 판다",
+            "표범",
+            "새끼",
+            "bear 오직"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-8",
@@ -2693,7 +3567,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Bao Bao는 겨울에 잠을 자지 않는 점이 곰과 다릅니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "I don’t sleep in winter."
+          "evidence": "I don’t sleep in winter.",
+          "choiceMeanings": [
+            "그는 does not sleep in winter",
+            "그는 eats 고기",
+            "그는 hunts every day",
+            "그는 has no 발톱"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-9",
@@ -2711,7 +3591,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "고기를 먹지 않기 때문에 사냥하지 않습니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "Because I don’t eat meat, I don’t hunt."
+          "evidence": "Because I don’t eat meat, I don’t hunt.",
+          "choiceMeanings": [
+            "왜냐하면 그는 does not eat 고기",
+            "왜냐하면 그는 is late",
+            "왜냐하면 그는 paints pictures",
+            "왜냐하면 그는 likes 기차들"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R1-10",
@@ -2729,7 +3615,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "곰과 공통점은 날카로운 이와 발톱입니다.",
           "readingTitle": "I'm a Giant Panda!",
-          "evidence": "We have sharp teeth and claws."
+          "evidence": "We have sharp teeth and claws.",
+          "choiceMeanings": [
+            "그는 has sharp 이빨 그리고 발톱",
+            "그는 eats 사과 파이",
+            "그는 paints 초상화들",
+            "그는 washes with 비누"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-1",
@@ -2747,7 +3639,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "옛날 판다는 눈처럼 하얗다고 했습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "Long ago, pandas were white as snow."
+          "evidence": "Long ago, pandas were white as snow.",
+          "choiceMeanings": [
+            "흰색 as 눈",
+            "검은색 오직",
+            "빨간색",
+            "초록색"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-2",
@@ -2765,7 +3663,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "표범이 나타났습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "One day, a leopard shows up."
+          "evidence": "One day, a leopard shows up.",
+          "choiceMeanings": [
+            "표범",
+            "lion",
+            "shark",
+            "crab"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-3",
@@ -2783,7 +3687,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "표범은 어린 새끼들을 겁먹게 했습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "It scares the little cubs."
+          "evidence": "It scares the little cubs.",
+          "choiceMeanings": [
+            "그 little 새끼들",
+            "그 여왕",
+            "그 화가, 예술가",
+            "Johnny"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-4",
@@ -2801,7 +3711,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "용감한 소녀가 새끼들의 울음소리를 듣습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "A brave girl hears the cubs crying."
+          "evidence": "A brave girl hears the cubs crying.",
+          "choiceMeanings": [
+            "용감한 girl",
+            "화가",
+            "왕",
+            "어부"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-5",
@@ -2819,7 +3735,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "소녀는 새끼들을 구합니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "She saves the cubs."
+          "evidence": "She saves the cubs.",
+          "choiceMeanings": [
+            "그녀는 saves 그 새끼들",
+            "그녀는 paints 초상화",
+            "그녀는 plants 나무들",
+            "그녀는 rides 버스"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-6",
@@ -2837,7 +3759,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "판다들은 발로 눈을 닦습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "They wipe their eyes with their paws."
+          "evidence": "They wipe their eyes with their paws.",
+          "choiceMeanings": [
+            "Their paws",
+            "잎들",
+            "비누",
+            "Cameras"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-7",
@@ -2855,7 +3783,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "검은 자국은 눈 주위에 남습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "So black marks are left around their eyes."
+          "evidence": "So black marks are left around their eyes.",
+          "choiceMeanings": [
+            "around their 눈",
+            "그 버스 위에/에서",
+            "그 fridge 안에/에서",
+            "그 sea 아래에"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-8",
@@ -2873,7 +3807,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "먼지 묻은 발로 눈을 닦아서 검은 자국이 남습니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "There is dust on their paws. So black marks are left around their eyes."
+          "evidence": "There is dust on their paws. So black marks are left around their eyes.",
+          "choiceMeanings": [
+            "검은색 marks are left around their 눈",
+            "그들은 become 사과들",
+            "그들은 ride horses",
+            "그들은 lay eggs"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-9",
@@ -2891,7 +3831,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "이 이야기는 판다가 왜 흑백인지 설명합니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "Now the pandas are not white anymore."
+          "evidence": "Now the pandas are not white anymore.",
+          "choiceMeanings": [
+            "why 판다들 are 검은색 그리고 흰색",
+            "how to ride 버스",
+            "how 세균들 grow",
+            "why 개미들 live alone"
+          ]
         },
         {
           "id": "unit-5-giant-pandas-R2-10",
@@ -2909,7 +3855,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "용감한 소녀가 죽었기 때문에 판다들이 슬퍼합니다.",
           "readingTitle": "Why Pandas Are Black and White",
-          "evidence": "But she is killed by the leopard. All the pandas are sad and cry."
+          "evidence": "But she is killed by the leopard. All the pandas are sad and cry.",
+          "choiceMeanings": [
+            "왜냐하면 그 용감한 girl is killed",
+            "왜냐하면 그들은 missed 그 버스",
+            "왜냐하면 그들은 cannot paint",
+            "왜냐하면 there is no 대나무"
+          ]
         }
       ]
     },
@@ -2980,7 +3932,14 @@ export const quizBook: QuizBook = {
             "healthy"
           ],
           "answerIndex": 0,
-          "explanationKo": "type의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "type의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "type",
+            "맛보다",
+            "영양가 있는",
+            "건강한"
+          ],
+          "hintKo": "type의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V2",
@@ -2996,7 +3955,14 @@ export const quizBook: QuizBook = {
             "healthy"
           ],
           "answerIndex": 1,
-          "explanationKo": "taste의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "taste의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "type",
+            "맛보다",
+            "영양가 있는",
+            "건강한"
+          ],
+          "hintKo": "taste의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V3",
@@ -3012,7 +3978,14 @@ export const quizBook: QuizBook = {
             "healthy"
           ],
           "answerIndex": 2,
-          "explanationKo": "nutritious의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "nutritious의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "type",
+            "맛보다",
+            "영양가 있는",
+            "건강한"
+          ],
+          "hintKo": "nutritious의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V4",
@@ -3028,7 +4001,14 @@ export const quizBook: QuizBook = {
             "healthy"
           ],
           "answerIndex": 3,
-          "explanationKo": "healthy의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "healthy의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "type",
+            "맛보다",
+            "영양가 있는",
+            "건강한"
+          ],
+          "hintKo": "healthy의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V5",
@@ -3044,7 +4024,14 @@ export const quizBook: QuizBook = {
             "nutritious"
           ],
           "answerIndex": 0,
-          "explanationKo": "raw의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "raw의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "날것의",
+            "type",
+            "맛보다",
+            "영양가 있는"
+          ],
+          "hintKo": "raw의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V6",
@@ -3060,7 +4047,14 @@ export const quizBook: QuizBook = {
             "feed"
           ],
           "answerIndex": 0,
-          "explanationKo": "born의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "born의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "born",
+            "name",
+            "know",
+            "feed"
+          ],
+          "hintKo": "born의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V7",
@@ -3076,7 +4070,14 @@ export const quizBook: QuizBook = {
             "feed"
           ],
           "answerIndex": 1,
-          "explanationKo": "name의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "name의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "born",
+            "name",
+            "know",
+            "feed"
+          ],
+          "hintKo": "name의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V8",
@@ -3092,7 +4093,14 @@ export const quizBook: QuizBook = {
             "feed"
           ],
           "answerIndex": 2,
-          "explanationKo": "know의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "know의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "born",
+            "name",
+            "know",
+            "feed"
+          ],
+          "hintKo": "know의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V9",
@@ -3108,7 +4116,14 @@ export const quizBook: QuizBook = {
             "feed"
           ],
           "answerIndex": 3,
-          "explanationKo": "feed의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "feed의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "born",
+            "name",
+            "know",
+            "feed"
+          ],
+          "hintKo": "feed의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-V10",
@@ -3124,7 +4139,14 @@ export const quizBook: QuizBook = {
             "know"
           ],
           "answerIndex": 0,
-          "explanationKo": "plant의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "plant의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "심다",
+            "born",
+            "name",
+            "know"
+          ],
+          "hintKo": "plant의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-6-apples-R1-1",
@@ -3142,7 +4164,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과에는 여러 종류가 있습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "There are different types of apples."
+          "evidence": "There are different types of apples.",
+          "choiceMeanings": [
+            "Yes, there are.",
+            "No, there are not.",
+            "오직 one type.",
+            "오직 파란색 사과들"
+          ]
         },
         {
           "id": "unit-6-apples-R1-2",
@@ -3160,7 +4188,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과는 빨강, 노랑, 초록이 될 수 있습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "They are red, yellow, and green apples."
+          "evidence": "They are red, yellow, and green apples.",
+          "choiceMeanings": [
+            "빨간색, 노란색,  그리고 초록색",
+            "검은색 그리고 흰색",
+            "파란색 그리고 보라색",
+            "주황색 오직"
+          ]
         },
         {
           "id": "unit-6-apples-R1-3",
@@ -3178,7 +4212,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "모든 종류의 사과는 맛이 좋습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "All types of apples taste great!"
+          "evidence": "All types of apples taste great!",
+          "choiceMeanings": [
+            "훌륭한",
+            "끔찍한",
+            "차가운",
+            "Salty"
+          ]
         },
         {
           "id": "unit-6-apples-R1-4",
@@ -3196,7 +4236,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과는 몸에 좋습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "Apples are good for you."
+          "evidence": "Apples are good for you.",
+          "choiceMeanings": [
+            "You",
+            "자동차들",
+            "초상화들",
+            "세균들"
+          ]
         },
         {
           "id": "unit-6-apples-R1-5",
@@ -3214,7 +4260,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과는 몸을 건강하게 합니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "They keep your body healthy."
+          "evidence": "They keep your body healthy.",
+          "choiceMeanings": [
+            "your 몸",
+            "your 카메라",
+            "your 버스",
+            "your 초상화"
+          ]
         },
         {
           "id": "unit-6-apples-R1-6",
@@ -3232,7 +4284,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과로 주스나 파이를 만들 수 있습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "You can make apple juice or apple pie."
+          "evidence": "You can make apple juice or apple pie.",
+          "choiceMeanings": [
+            "사과 주스 또는 사과 파이",
+            "고기 또는 물고기",
+            "비누 또는 물",
+            "택시 또는 기차"
+          ]
         },
         {
           "id": "unit-6-apples-R1-7",
@@ -3250,7 +4308,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과는 익히지 않고도 먹을 수 있습니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "You can also eat them raw."
+          "evidence": "You can also eat them raw.",
+          "choiceMeanings": [
+            "Yes, 너는/너의 can",
+            "No, never.",
+            "오직 winter. 안에/에서",
+            "오직 zoo. 안에/에서"
+          ]
         },
         {
           "id": "unit-6-apples-R1-8",
@@ -3268,7 +4332,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문의 핵심 개념은 사과가 몸에 좋다는 것입니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "Apples are good for you."
+          "evidence": "Apples are good for you.",
+          "choiceMeanings": [
+            "사과들",
+            "세균들",
+            "Dust",
+            "표범"
+          ]
         },
         {
           "id": "unit-6-apples-R1-9",
@@ -3286,7 +4356,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과를 여러 음식이나 방법으로 즐길 수 있다는 뜻입니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "You can enjoy apples in many ways."
+          "evidence": "You can enjoy apples in many ways.",
+          "choiceMeanings": [
+            "너는/너의 can eat 또는 make different 사과 foods",
+            "너는/너의 can 오직 look at 사과들",
+            "너는/너의 cannot eat 사과들",
+            "너는/너의 must throw 사과들 away"
+          ]
         },
         {
           "id": "unit-6-apples-R1-10",
@@ -3304,7 +4380,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "영양 있는 사과는 잘 자라도록 도와줍니다.",
           "readingTitle": "Apples Are Good for You!",
-          "evidence": "They help you grow well."
+          "evidence": "They help you grow well.",
+          "choiceMeanings": [
+            "그들은 help you grow well",
+            "그들은 make you late",
+            "그들은 make 초상화들",
+            "그들은 scare 새끼들"
+          ]
         },
         {
           "id": "unit-6-apples-R2-1",
@@ -3322,7 +4404,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "미국에는 많은 사과나무가 있습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "There are many apple trees in America."
+          "evidence": "There are many apple trees in America.",
+          "choiceMeanings": [
+            "America 안에/에서",
+            "그 ocean 안에/에서",
+            "Antarctica 안에/에서",
+            "그 moon 위에/에서"
+          ]
         },
         {
           "id": "unit-6-apples-R2-2",
@@ -3340,7 +4428,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "많은 사과나무는 Johnny Appleseed 덕분입니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "It’s thanks to Johnny Appleseed."
+          "evidence": "It’s thanks to Johnny Appleseed.",
+          "choiceMeanings": [
+            "Johnny Appleseed",
+            "Bao Bao",
+            "Ms. Blair",
+            "왕"
+          ]
         },
         {
           "id": "unit-6-apples-R2-3",
@@ -3358,7 +4452,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Johnny는 1774년에 태어났습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "Johnny was born in 1774."
+          "evidence": "Johnny was born in 1774.",
+          "choiceMeanings": [
+            "1774 안에/에서",
+            "2000 안에/에서",
+            "1500 안에/에서",
+            "1901 안에/에서"
+          ]
         },
         {
           "id": "unit-6-apples-R2-4",
@@ -3376,7 +4476,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "실제 이름은 John Chapman입니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "His real name was John Chapman."
+          "evidence": "His real name was John Chapman.",
+          "choiceMeanings": [
+            "John Chapman",
+            "Sam Blair",
+            "Vincent van Gogh",
+            "Bao Bao"
+          ]
         },
         {
           "id": "unit-6-apples-R2-5",
@@ -3394,7 +4500,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "Johnny는 사과나무를 길렀습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "He grew apple trees."
+          "evidence": "He grew apple trees.",
+          "choiceMeanings": [
+            "사과 나무들",
+            "세균들",
+            "초상화들",
+            "개미들"
+          ]
         },
         {
           "id": "unit-6-apples-R2-6",
@@ -3412,7 +4524,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사람들에게 사과를 먹이고 싶어했습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "He wanted to feed people apples."
+          "evidence": "He wanted to feed people apples.",
+          "choiceMeanings": [
+            "사과들",
+            "고기",
+            "물고기",
+            "대나무"
+          ]
         },
         {
           "id": "unit-6-apples-R2-7",
@@ -3430,7 +4548,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "냄비를 모자처럼 머리에 썼습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "He wore a pot on his head as a hat."
+          "evidence": "He wore a pot on his head as a hat.",
+          "choiceMeanings": [
+            "pot",
+            "카메라",
+            "scarf",
+            "crown"
+          ]
         },
         {
           "id": "unit-6-apples-R2-8",
@@ -3448,7 +4572,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사람들에게 사과를 먹이고 싶어 여행하며 사과나무를 심었습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "He wanted to feed people apples. So he traveled and planted apple trees."
+          "evidence": "He wanted to feed people apples. So he traveled and planted apple trees.",
+          "choiceMeanings": [
+            "그는 traveled 그리고 planted 사과 나무들",
+            "그는 painted 왕",
+            "그는 washed his 손",
+            "그는 caught 물고기"
+          ]
         },
         {
           "id": "unit-6-apples-R2-9",
@@ -3466,7 +4596,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "50년 동안 사과나무를 심은 것은 많은 사람을 도운 행동입니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "He planted apple trees for 50 years."
+          "evidence": "He planted apple trees for 50 years.",
+          "choiceMeanings": [
+            "그는 planted 사과 나무들 for 50 years",
+            "그는 had sharp 발톱",
+            "그는 was 여왕",
+            "그는 made 소리들"
+          ]
         },
         {
           "id": "unit-6-apples-R2-10",
@@ -3484,7 +4620,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "사과나무를 심고 다녀서 Johnny Appleseed라고 불렸습니다.",
           "readingTitle": "Johnny Appleseed",
-          "evidence": "So he traveled and planted apple trees."
+          "evidence": "So he traveled and planted apple trees.",
+          "choiceMeanings": [
+            "왜냐하면 그는 planted 사과 나무들",
+            "왜냐하면 그는 painted 초상화들",
+            "왜냐하면 그는 fought enemies",
+            "왜냐하면 그는 lived in 구멍"
+          ]
         }
       ]
     },
@@ -3556,7 +4698,14 @@ export const quizBook: QuizBook = {
             "cold"
           ],
           "answerIndex": 0,
-          "explanationKo": "germ의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "germ의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "세균",
+            "아주 작은",
+            "복통",
+            "차가운"
+          ],
+          "hintKo": "germ의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V2",
@@ -3572,7 +4721,14 @@ export const quizBook: QuizBook = {
             "cold"
           ],
           "answerIndex": 1,
-          "explanationKo": "tiny의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "tiny의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "세균",
+            "아주 작은",
+            "복통",
+            "차가운"
+          ],
+          "hintKo": "tiny의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V3",
@@ -3588,7 +4744,14 @@ export const quizBook: QuizBook = {
             "cold"
           ],
           "answerIndex": 2,
-          "explanationKo": "stomachache의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "stomachache의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "세균",
+            "아주 작은",
+            "복통",
+            "차가운"
+          ],
+          "hintKo": "stomachache의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V4",
@@ -3604,7 +4767,14 @@ export const quizBook: QuizBook = {
             "cold"
           ],
           "answerIndex": 3,
-          "explanationKo": "cold의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "cold의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "세균",
+            "아주 작은",
+            "복통",
+            "차가운"
+          ],
+          "hintKo": "cold의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V5",
@@ -3620,7 +4790,14 @@ export const quizBook: QuizBook = {
             "stomachache"
           ],
           "answerIndex": 0,
-          "explanationKo": "warm의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "warm의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "따뜻한",
+            "세균",
+            "아주 작은",
+            "복통"
+          ],
+          "hintKo": "warm의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V6",
@@ -3636,7 +4813,14 @@ export const quizBook: QuizBook = {
             "protect"
           ],
           "answerIndex": 0,
-          "explanationKo": "attack의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "attack의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "attack",
+            "피곤한",
+            "약한",
+            "보호하다"
+          ],
+          "hintKo": "attack의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V7",
@@ -3652,7 +4836,14 @@ export const quizBook: QuizBook = {
             "protect"
           ],
           "answerIndex": 1,
-          "explanationKo": "tired의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "tired의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "attack",
+            "피곤한",
+            "약한",
+            "보호하다"
+          ],
+          "hintKo": "tired의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V8",
@@ -3668,7 +4859,14 @@ export const quizBook: QuizBook = {
             "protect"
           ],
           "answerIndex": 2,
-          "explanationKo": "weak의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "weak의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "attack",
+            "피곤한",
+            "약한",
+            "보호하다"
+          ],
+          "hintKo": "weak의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V9",
@@ -3684,7 +4882,14 @@ export const quizBook: QuizBook = {
             "protect"
           ],
           "answerIndex": 3,
-          "explanationKo": "protect의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "protect의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "attack",
+            "피곤한",
+            "약한",
+            "보호하다"
+          ],
+          "hintKo": "protect의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-V10",
@@ -3700,7 +4905,14 @@ export const quizBook: QuizBook = {
             "weak"
           ],
           "answerIndex": 0,
-          "explanationKo": "soap의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "soap의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "비누",
+            "attack",
+            "피곤한",
+            "약한"
+          ],
+          "hintKo": "soap의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-7-germs-R1-1",
@@ -3718,7 +4930,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 아주 작습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Germs are very tiny."
+          "evidence": "Germs are very tiny.",
+          "choiceMeanings": [
+            "very 아주 작은",
+            "Very large",
+            "자동차들만큼 큰",
+            "판다들만큼 큰"
+          ]
         },
         {
           "id": "unit-7-germs-R1-2",
@@ -3736,7 +4954,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 볼 수 없습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "We can’t see them."
+          "evidence": "We can’t see them.",
+          "choiceMeanings": [
+            "No, 우리는 can't",
+            "Yes, always.",
+            "오직 at night.",
+            "오직 books. 안에/에서"
+          ]
         },
         {
           "id": "unit-7-germs-R1-3",
@@ -3754,7 +4978,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 우리 주변에 있습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "But germs are all around us."
+          "evidence": "But germs are all around us.",
+          "choiceMeanings": [
+            "All around us",
+            "오직 zoos 안에/에서",
+            "오직 paintings 안에/에서",
+            "오직 나무들 안에/에서"
+          ]
         },
         {
           "id": "unit-7-germs-R1-4",
@@ -3772,7 +5002,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 배탈을 일으킬 수 있습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Germs can give you a stomachache."
+          "evidence": "Germs can give you a stomachache.",
+          "choiceMeanings": [
+            "복통",
+            "초상화",
+            "나룻배, 페리",
+            "손도장"
+          ]
         },
         {
           "id": "unit-7-germs-R1-5",
@@ -3790,7 +5026,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 감기를 일으킬 수 있습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Germs can give you a cold."
+          "evidence": "Germs can give you a cold.",
+          "choiceMeanings": [
+            "차가운",
+            "trophy",
+            "카메라",
+            "연"
+          ]
         },
         {
           "id": "unit-7-germs-R1-6",
@@ -3808,7 +5050,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "젖은 곳에서 세균이 더 커집니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Germs grow bigger in wet places."
+          "evidence": "Germs grow bigger in wet places.",
+          "choiceMeanings": [
+            "젖은 places 안에/에서",
+            "마른 places 안에/에서",
+            "clean places 안에/에서",
+            "차가운 신선한 공기 안에/에서"
+          ]
         },
         {
           "id": "unit-7-germs-R1-7",
@@ -3826,7 +5074,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균이 싫다면 손을 씻어야 합니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Then, wash your hands."
+          "evidence": "Then, wash your hands.",
+          "choiceMeanings": [
+            "손을 씻어라",
+            "paint picture",
+            "ride 택시",
+            "eat 대나무"
+          ]
         },
         {
           "id": "unit-7-germs-R1-8",
@@ -3844,7 +5098,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "차갑고 신선한 공기에서는 세균이 살 수 없기 때문입니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Keep your food in the fridge. Germs can’t live in the cold fresh air."
+          "evidence": "Keep your food in the fridge. Germs can’t live in the cold fresh air.",
+          "choiceMeanings": [
+            "왜냐하면 세균은 can't live in 그 차가운 신선한 공기",
+            "왜냐하면 사과들 are 빨간색",
+            "왜냐하면 개미들 live in 무리들",
+            "왜냐하면 painters are curious."
+          ]
         },
         {
           "id": "unit-7-germs-R1-9",
@@ -3862,7 +5122,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균은 깨끗하고 건조한 곳에서 살 수 없습니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "Germs can’t live in clean dry places."
+          "evidence": "Germs can’t live in clean dry places.",
+          "choiceMeanings": [
+            "clean 마른 places",
+            "젖은 places",
+            "따뜻한 공기",
+            "dirty 손"
+          ]
         },
         {
           "id": "unit-7-germs-R1-10",
@@ -3880,7 +5146,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "세균이 우리 주변 어디에나 있을 수 있다는 뜻입니다.",
           "readingTitle": "Germs Are All Around Us!",
-          "evidence": "But germs are all around us."
+          "evidence": "But germs are all around us.",
+          "choiceMeanings": [
+            "세균은 우리 주변 어디에나 있을 수 있다.",
+            "세균은 are 오직 in one box",
+            "세균은 are easy to see",
+            "세균은 are 초상화들"
+          ]
         },
         {
           "id": "unit-7-germs-R2-1",
@@ -3898,7 +5170,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "손가락을 빠는 습관이 있으면 세균이 공격할 수 있습니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "If you are, germs will attack you."
+          "evidence": "If you are, germs will attack you.",
+          "choiceMeanings": [
+            "Attack you",
+            "Paint you",
+            "Feed you",
+            "Hug you"
+          ]
         },
         {
           "id": "unit-7-germs-R2-2",
@@ -3916,7 +5194,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "약하면 세균이 기회를 놓치지 않습니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "If you do, germs won’t miss their chance."
+          "evidence": "If you do, germs won’t miss their chance.",
+          "choiceMeanings": [
+            "세균은 won't miss their chance",
+            "세균은 become 초상화들",
+            "세균은 ride 버스들",
+            "세균은 plant 나무들"
+          ]
         },
         {
           "id": "unit-7-germs-R2-3",
@@ -3934,7 +5218,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "본문은 세균으로부터 자신을 지키는 방법을 설명합니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Here are the ways to protect yourself from germs."
+          "evidence": "Here are the ways to protect yourself from germs.",
+          "choiceMeanings": [
+            "protecting yourself from 세균들",
+            "making 사과 파이",
+            "painting 초상화들",
+            "living in 무리들"
+          ]
         },
         {
           "id": "unit-7-germs-R2-4",
@@ -3952,7 +5242,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "비누와 물로 손을 씻어야 합니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Wash hands with soap and water."
+          "evidence": "Wash hands with soap and water.",
+          "choiceMeanings": [
+            "비누와 물",
+            "그리다, 칠하다 그리고 paper",
+            "Dust 그리고 paws",
+            "고기 그리고 대나무"
+          ]
         },
         {
           "id": "unit-7-germs-R2-5",
@@ -3970,7 +5266,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "손을 얼굴에서 떼야 합니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Keep your hands off your face."
+          "evidence": "Keep your hands off your face.",
+          "choiceMeanings": [
+            "your 손",
+            "Your shoes",
+            "Your books",
+            "your 사과들"
+          ]
         },
         {
           "id": "unit-7-germs-R2-6",
@@ -3988,7 +5290,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "과일과 채소를 더 먹어야 합니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Eat more fruits and vegetables."
+          "evidence": "Eat more fruits and vegetables.",
+          "choiceMeanings": [
+            "Fruits 그리고 vegetables",
+            "오직 candy",
+            "오직 고기",
+            "오직 파이"
+          ]
         },
         {
           "id": "unit-7-germs-R2-7",
@@ -4006,7 +5314,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "매일 운동해야 합니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Do exercises every day."
+          "evidence": "Do exercises every day.",
+          "choiceMeanings": [
+            "Exercises",
+            "Sleep in class",
+            "pick your 코",
+            "lick your 손가락"
+          ]
         },
         {
           "id": "unit-7-germs-R2-8",
@@ -4024,7 +5338,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "손 씻기 다음에 얼굴을 만지지 않는 방법이 제시됩니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Wash hands with soap and water. Keep your hands off your face."
+          "evidence": "Wash hands with soap and water. Keep your hands off your face.",
+          "choiceMeanings": [
+            "손을 얼굴에 대지 마라.",
+            "touch more 세균들",
+            "forget your 약속",
+            "paint 그 왕"
+          ]
         },
         {
           "id": "unit-7-germs-R2-9",
@@ -4042,7 +5362,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "충분한 수면은 건강을 지켜 세균에게 기회를 주지 않는 방법입니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Get enough sleep at night."
+          "evidence": "Get enough sleep at night.",
+          "choiceMeanings": [
+            "Getting enough sleep at night",
+            "licking 손가락",
+            "picking your 코",
+            "staying 약한"
+          ]
         },
         {
           "id": "unit-7-germs-R2-10",
@@ -4060,7 +5386,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "전체 글은 건강하게 생활해 세균으로부터 자신을 지키자는 내용입니다.",
           "readingTitle": "Protect Yourself From Germs!",
-          "evidence": "Always stay healthy and strong. Do not give germs a chance."
+          "evidence": "Always stay healthy and strong. Do not give germs a chance.",
+          "choiceMeanings": [
+            "세균으로부터 자신을 보호하려면 건강하게 지내라.",
+            "세균은 are good pets",
+            "Do not eat fruits.",
+            "paint with 비누"
+          ]
         }
       ]
     },
@@ -4124,7 +5456,14 @@ export const quizBook: QuizBook = {
             "camera"
           ],
           "answerIndex": 0,
-          "explanationKo": "portrait의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "portrait의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "초상화",
+            "그리다, 칠하다",
+            "기록하다",
+            "카메라"
+          ],
+          "hintKo": "portrait의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V2",
@@ -4140,7 +5479,14 @@ export const quizBook: QuizBook = {
             "camera"
           ],
           "answerIndex": 1,
-          "explanationKo": "paint의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "paint의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "초상화",
+            "그리다, 칠하다",
+            "기록하다",
+            "카메라"
+          ],
+          "hintKo": "paint의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V3",
@@ -4156,7 +5502,14 @@ export const quizBook: QuizBook = {
             "camera"
           ],
           "answerIndex": 2,
-          "explanationKo": "record의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "record의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "초상화",
+            "그리다, 칠하다",
+            "기록하다",
+            "카메라"
+          ],
+          "hintKo": "record의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V4",
@@ -4172,7 +5525,14 @@ export const quizBook: QuizBook = {
             "camera"
           ],
           "answerIndex": 3,
-          "explanationKo": "camera의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "camera의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "초상화",
+            "그리다, 칠하다",
+            "기록하다",
+            "카메라"
+          ],
+          "hintKo": "camera의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V5",
@@ -4188,7 +5548,14 @@ export const quizBook: QuizBook = {
             "record"
           ],
           "answerIndex": 0,
-          "explanationKo": "king의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "king의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "왕",
+            "초상화",
+            "그리다, 칠하다",
+            "기록하다"
+          ],
+          "hintKo": "king의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V6",
@@ -4204,7 +5571,14 @@ export const quizBook: QuizBook = {
             "painter"
           ],
           "answerIndex": 0,
-          "explanationKo": "handsome의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "handsome의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "잘생긴",
+            "용감한",
+            "leg",
+            "화가"
+          ],
+          "hintKo": "handsome의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V7",
@@ -4220,7 +5594,14 @@ export const quizBook: QuizBook = {
             "painter"
           ],
           "answerIndex": 1,
-          "explanationKo": "brave의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "brave의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "잘생긴",
+            "용감한",
+            "leg",
+            "화가"
+          ],
+          "hintKo": "brave의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V8",
@@ -4236,7 +5617,14 @@ export const quizBook: QuizBook = {
             "painter"
           ],
           "answerIndex": 2,
-          "explanationKo": "leg의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "leg의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "잘생긴",
+            "용감한",
+            "leg",
+            "화가"
+          ],
+          "hintKo": "leg의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V9",
@@ -4252,7 +5640,14 @@ export const quizBook: QuizBook = {
             "painter"
           ],
           "answerIndex": 3,
-          "explanationKo": "painter의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "painter의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "잘생긴",
+            "용감한",
+            "leg",
+            "화가"
+          ],
+          "hintKo": "painter의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-V10",
@@ -4268,7 +5663,14 @@ export const quizBook: QuizBook = {
             "leg"
           ],
           "answerIndex": 0,
-          "explanationKo": "beautiful의 뜻을 묻는 영영정의형 문제입니다."
+          "explanationKo": "beautiful의 뜻을 묻는 영영정의형 문제입니다.",
+          "choiceMeanings": [
+            "아름다운",
+            "잘생긴",
+            "용감한",
+            "leg"
+          ],
+          "hintKo": "beautiful의 뜻을 묻는 영영정의형 문제입니다."
         },
         {
           "id": "unit-8-portraits-R1-1",
@@ -4286,7 +5688,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "예술가는 사람의 모습을 보여주기 위해 초상화를 그립니다.",
           "readingTitle": "Portraits",
-          "evidence": "Artists paint portraits to show how people look."
+          "evidence": "Artists paint portraits to show how people look.",
+          "choiceMeanings": [
+            "초상화들",
+            "세균들",
+            "버스들",
+            "사과들"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-2",
@@ -4304,7 +5712,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "첫 그림에는 엄마와 두 여자아이가 있습니다.",
           "readingTitle": "Portraits",
-          "evidence": "there are two girls with their mother"
+          "evidence": "there are two girls with their mother",
+          "choiceMeanings": [
+            "Two girls with their mother",
+            "왕 with soldiers",
+            "어부 with 바람",
+            "개미들 in 무리"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-3",
@@ -4322,7 +5736,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "그들은 행복해 보입니다.",
           "readingTitle": "Portraits",
-          "evidence": "they look happy."
+          "evidence": "they look happy.",
+          "choiceMeanings": [
+            "행복한",
+            "화난",
+            "피곤한",
+            "차가운"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-4",
@@ -4340,7 +5760,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "역사를 기록하기 위해 초상화를 그리기도 합니다.",
           "readingTitle": "Portraits",
-          "evidence": "Some artists paint portraits to record history."
+          "evidence": "Some artists paint portraits to record history.",
+          "choiceMeanings": [
+            "record history 위해",
+            "물고기를 잡기 위해",
+            "wash 손 위해",
+            "plant 사과들 위해"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-5",
@@ -4358,7 +5784,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "과거에는 카메라가 없었습니다.",
           "readingTitle": "Portraits",
-          "evidence": "In the past, there were no cameras."
+          "evidence": "In the past, there were no cameras.",
+          "choiceMeanings": [
+            "Cameras",
+            "Kings",
+            "화가들",
+            "사람들"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-6",
@@ -4376,7 +5808,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "부자들이 초상화를 그려달라고 했습니다.",
           "readingTitle": "Portraits",
-          "evidence": "So rich people would ask artists to draw their portraits."
+          "evidence": "So rich people would ask artists to draw their portraits.",
+          "choiceMeanings": [
+            "rich 사람들",
+            "오직 아이들",
+            "오직 개미들",
+            "오직 fishermen"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-7",
@@ -4394,7 +5832,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "빈센트 반 고흐는 자신을 그렸습니다.",
           "readingTitle": "Portraits",
-          "evidence": "Vincent van Gogh, a famous artist, and he painted himself."
+          "evidence": "Vincent van Gogh, a famous artist, and he painted himself.",
+          "choiceMeanings": [
+            "Vincent van Gogh",
+            "Johnny Appleseed",
+            "Bao Bao",
+            "Ms. Blair"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-8",
@@ -4412,7 +5856,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "자화상은 예술가가 자기 자신을 그린 그림입니다.",
           "readingTitle": "Portraits",
-          "evidence": "Sometimes artists also paint self-portraits."
+          "evidence": "Sometimes artists also paint self-portraits.",
+          "choiceMeanings": [
+            "그림: an artist painted of himself",
+            "버스 정류장 그림",
+            "사과 나무들 그림",
+            "세균들 그림"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-9",
@@ -4430,7 +5880,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "초상화는 사람의 모습을 보여줍니다.",
           "readingTitle": "Portraits",
-          "evidence": "Artists paint portraits to show how people look."
+          "evidence": "Artists paint portraits to show how people look.",
+          "choiceMeanings": [
+            "how person looks",
+            "how 세균들 grow",
+            "how 사과들 taste",
+            "how 개미들 gather 음식"
+          ]
         },
         {
           "id": "unit-8-portraits-R1-10",
@@ -4448,7 +5904,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "과거에는 카메라가 없었기 때문에 예술가에게 초상화를 부탁했습니다.",
           "readingTitle": "Portraits",
-          "evidence": "In the past, there were no cameras. So rich people would ask artists to draw their portraits."
+          "evidence": "In the past, there were no cameras. So rich people would ask artists to draw their portraits.",
+          "choiceMeanings": [
+            "왜냐하면 there were no cameras.",
+            "왜냐하면 그들은 hated art",
+            "왜냐하면 그들은 lived in 무리들",
+            "왜냐하면 그들은 wanted 차가운 공기"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-1",
@@ -4466,7 +5928,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "왕은 자신의 초상화를 만들지 말라고 합니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "Do not make my portrait"
+          "evidence": "Do not make my portrait",
+          "choiceMeanings": [
+            "his 초상화",
+            "his 사과 파이",
+            "his 집",
+            "그의 배"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-2",
@@ -4484,7 +5952,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "왕은 잘생기고 용감합니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "He is handsome and brave."
+          "evidence": "He is handsome and brave.",
+          "choiceMeanings": [
+            "잘생긴 그리고 용감한",
+            "아주 작은 그리고 약한",
+            "아픈 그리고 피곤한",
+            "늦은 그리고 worried"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-3",
@@ -4502,7 +5976,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "왕은 한쪽 다리만 있습니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "But he has only one leg."
+          "evidence": "But he has only one leg.",
+          "choiceMeanings": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-4",
@@ -4520,7 +6000,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "왕은 한쪽 다리가 보이는 초상화를 원하지 않습니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "He doesn’t want a portrait showing his one leg."
+          "evidence": "He doesn’t want a portrait showing his one leg.",
+          "choiceMeanings": [
+            "His one leg",
+            "his 카메라",
+            "his 사과 나무",
+            "his 비누"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-5",
@@ -4538,7 +6024,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "어느 날 현명한 화가가 옵니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "One day, a wise painter comes"
+          "evidence": "One day, a wise painter comes",
+          "choiceMeanings": [
+            "현명한 화가",
+            "어부",
+            "여왕 ant",
+            "표범"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-6",
@@ -4556,7 +6048,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "화가는 아름다운 초상화를 그리겠다고 합니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "I’ll paint a beautiful portrait for you."
+          "evidence": "I’ll paint a beautiful portrait for you.",
+          "choiceMeanings": [
+            "아름다운 초상화",
+            "무서운 표범",
+            "큰 버스",
+            "차가운 fridge"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-7",
@@ -4574,7 +6072,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "초상화는 왕이 말을 타는 옆모습입니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "It’s a side view of the king riding a horse."
+          "evidence": "It’s a side view of the king riding a horse.",
+          "choiceMeanings": [
+            "side view",
+            "top view",
+            "back view",
+            "front view"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-8",
@@ -4592,7 +6096,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "왕은 한쪽 다리만 보일까 봐 초상화를 원하지 않습니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "But he has only one leg. He doesn’t want a portrait showing his one leg."
+          "evidence": "But he has only one leg. He doesn’t want a portrait showing his one leg.",
+          "choiceMeanings": [
+            "왜냐하면 그는 has 오직 one leg",
+            "왜냐하면 그는 has no 카메라",
+            "왜냐하면 그는 is not rich",
+            "왜냐하면 그는 hates horses"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-9",
@@ -4610,7 +6120,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "화가가 초상화를 보여준 뒤 왕은 매우 행복해합니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "Finally, the painter shows the portrait. The king is very happy."
+          "evidence": "Finally, the painter shows the portrait. The king is very happy.",
+          "choiceMeanings": [
+            "그 왕 is very 행복한",
+            "그 왕 cries",
+            "그 화가 runs away",
+            "그 horse disappears"
+          ]
         },
         {
           "id": "unit-8-portraits-R2-10",
@@ -4628,7 +6144,13 @@ export const quizBook: QuizBook = {
           "answerIndex": 0,
           "explanationKo": "화가는 옆모습이라는 좋은 생각으로 왕의 고민을 해결했습니다.",
           "readingTitle": "A Portrait of the One-Legged King",
-          "evidence": "It’s a side view of the king riding a horse. The king is very happy."
+          "evidence": "It’s a side view of the king riding a horse. The king is very happy.",
+          "choiceMeanings": [
+            "smart idea can solve problem",
+            "never paint 초상화들",
+            "Kings should not ride horses.",
+            "Cameras are bad."
+          ]
         }
       ]
     }

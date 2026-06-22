@@ -1,8 +1,13 @@
-이 프로젝트를 그대로 사용하되, Unit 3~8의 교재 Lesson 1·2 본문 자료가 추가되면 quizData.ts의 locked unit을 active unit으로 바꾸고 각 유닛별 30문항을 같은 기준으로 추가해줘.
+이번 프로젝트는 ESL Rainbows Orange Vol.2 Unit 1~8 위클리 테스트 앱입니다.
 
-기준:
-- 단어: Lesson 1 5문항 + Lesson 2 5문항, 4지선다
-- Reading 1: 본문 직접형 7 + 변형형 3
-- Reading 2: 본문 직접형 7 + 변형형 3
-- 유닛 클릭 시 해당 유닛 30문항 자동 시작
-- 이전 문제 / 다음 문제 유지
+수정 반영 기준:
+1. 단어 문제에는 hintKo를 사용해 영영정의의 한글뜻 힌트를 표시한다.
+2. 답 체크 후 모든 선지의 choiceMeanings를 표시한다.
+3. 정답 선지는 녹색 + 정답 라벨을 표시한다.
+4. 사용자가 선택한 오답 선지는 빨간색 + 오답 라벨을 표시한다.
+5. 답 체크 전에는 어떤 선지도 색깔 강조가 없어야 한다.
+6. 선택지 영어 글자는 text-xl 수준으로 크게 표시한다.
+7. Reading 지문 글자는 text-base 이상으로 크게 표시한다.
+8. 문제 화면 상단에 홈 버튼을 둔다.
+9. 홈 버튼을 누르면 메인 화면으로 돌아가 다른 유닛을 선택할 수 있다.
+10. question.area, question.type, question.explanation, question.passage, question.passageTitle은 사용하지 않는다.
