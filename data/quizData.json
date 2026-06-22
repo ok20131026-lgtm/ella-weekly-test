@@ -67,14 +67,14 @@
             "through"
           ],
           "answerIndex": 1,
-          "explanationKo": "travel은 한 장소에서 다른 장소로 가다는 뜻입니다.",
+          "explanationKo": "travel은/는 한 장소에서 다른 장소로 가다라는 뜻입니다.",
           "choiceMeanings": [
             "기차",
-            "여행하다, 이동하다",
-            "나룻배, 페리",
+            "여행하다",
+            "페리",
             "~을 통과하여"
           ],
-          "hintKo": "한 장소에서 다른 장소로 가다는 뜻입니다."
+          "hintKo": "한 장소에서 다른 장소로 가다"
         },
         {
           "id": "U1-V1-2",
@@ -90,14 +90,14 @@
             "bus"
           ],
           "answerIndex": 0,
-          "explanationKo": "train은 철길 위를 달리는 기차를 뜻합니다.",
+          "explanationKo": "train은/는 기관차가 여러 객차를 연결해 끄는 열차라는 뜻입니다.",
           "choiceMeanings": [
             "기차",
             "비행기",
-            "배",
+            "보트",
             "버스"
           ],
-          "hintKo": "철길 위를 달리는 기차를 뜻합니다."
+          "hintKo": "기관차가 여러 객차를 연결해 끄는 열차"
         },
         {
           "id": "U1-V1-3",
@@ -113,14 +113,14 @@
             "awesome"
           ],
           "answerIndex": 0,
-          "explanationKo": "across는 한쪽에서 다른 쪽으로 지나가다는 뜻입니다.",
+          "explanationKo": "across은/는 어떤 것의 한쪽에서 다른 쪽으로라는 뜻입니다.",
           "choiceMeanings": [
-            "across",
-            "way",
-            "relative",
-            "awesome"
+            "가로질러",
+            "방법",
+            "친척",
+            "굉장한"
           ],
-          "hintKo": "한쪽에서 다른 쪽으로 지나가다는 뜻입니다."
+          "hintKo": "어떤 것의 한쪽에서 다른 쪽으로"
         },
         {
           "id": "U1-V1-4",
@@ -136,14 +136,14 @@
             "bus"
           ],
           "answerIndex": 1,
-          "explanationKo": "ferry는 사람이나 물건을 물 건너편으로 나르는 배입니다.",
+          "explanationKo": "ferry은/는 사람, 차량, 물건을 물 건너로 실어 나르는 배라는 뜻입니다.",
           "choiceMeanings": [
             "헬리콥터",
-            "나룻배, 페리",
+            "페리",
             "기차",
             "버스"
           ],
-          "hintKo": "사람이나 물건을 물 건너편으로 나르는 배입니다."
+          "hintKo": "사람, 차량, 물건을 물 건너로 실어 나르는 배"
         },
         {
           "id": "U1-V1-5",
@@ -159,14 +159,14 @@
             "worry"
           ],
           "answerIndex": 2,
-          "explanationKo": "awesome은 매우 멋진, 놀라운이라는 뜻입니다.",
+          "explanationKo": "awesome은/는 매우 인상적이고 믿기 어려울 정도로 놀라운라는 뜻입니다.",
           "choiceMeanings": [
-            "relative",
+            "친척",
             "늦은",
-            "awesome",
-            "걱정하다"
+            "굉장한",
+            "worry"
           ],
-          "hintKo": "매우 멋진, 놀라운이라는 뜻입니다."
+          "hintKo": "매우 인상적이고 믿기 어려울 정도로 놀라운"
         },
         {
           "id": "U1-V2-1",
@@ -182,14 +182,14 @@
             "road"
           ],
           "answerIndex": 0,
-          "explanationKo": "family는 가족을 뜻합니다.",
+          "explanationKo": "family은/는 아버지, 어머니, 아이들로 이루어진 집단이며 조부모, 이모·고모, 삼촌, 사촌도 포함한다라는 뜻입니다.",
           "choiceMeanings": [
             "가족",
-            "버스 정류장",
-            "택시",
+            "bus stop",
+            "taxi",
             "도로"
           ],
-          "hintKo": "가족을 뜻합니다."
+          "hintKo": "아버지, 어머니, 아이들로 이루어진 집단이며 조부모, 이모·고모, 삼촌, 사촌도 포함한다"
         },
         {
           "id": "U1-V2-2",
@@ -205,14 +205,14 @@
             "get on"
           ],
           "answerIndex": 0,
-          "explanationKo": "late는 늦은이라는 뜻입니다.",
+          "explanationKo": "late은/는 예상되거나 정해진 시간보다 늦게 도착하거나 일어나는라는 뜻입니다.",
           "choiceMeanings": [
             "늦은",
             "제시간에",
-            "소리치다",
-            "타다"
+            "shout",
+            "get on"
           ],
-          "hintKo": "늦은이라는 뜻입니다."
+          "hintKo": "예상되거나 정해진 시간보다 늦게 도착하거나 일어나는"
         },
         {
           "id": "U1-V2-3",
@@ -228,14 +228,14 @@
             "can"
           ],
           "answerIndex": 1,
-          "explanationKo": "road는 차가 다니는 도로를 뜻합니다.",
+          "explanationKo": "road은/는 차량이 한 장소에서 다른 장소로 이동할 수 있도록 만든 길라는 뜻입니다.",
           "choiceMeanings": [
-            "자전거",
+            "bike",
             "도로",
-            "비행기",
+            "plane",
             "can"
           ],
-          "hintKo": "차가 다니는 도로를 뜻합니다."
+          "hintKo": "차량이 한 장소에서 다른 장소로 이동할 수 있도록 만든 길"
         },
         {
           "id": "U1-V2-4",
@@ -243,22 +243,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to say something very loudly or angrily\"?",
+          "question": "Which word means \"a person who controls a vehicle\"?",
           "choices": [
-            "shout",
-            "worry",
-            "ride",
-            "get on"
+            "driver",
+            "traffic",
+            "hurry",
+            "wait"
           ],
           "answerIndex": 0,
-          "explanationKo": "shout은 큰소리로 외치다는 뜻입니다.",
+          "explanationKo": "driver은/는 탈것을 조종하는 사람라는 뜻입니다.",
           "choiceMeanings": [
-            "소리치다",
-            "걱정하다",
-            "타다",
-            "타다"
+            "운전자",
+            "교통량",
+            "서두르다",
+            "기다리다"
           ],
-          "hintKo": "큰소리로 외치다는 뜻입니다."
+          "hintKo": "탈것을 조종하는 사람"
         },
         {
           "id": "U1-V2-5",
@@ -266,22 +266,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to get into a bus, plane, train, etc.\"?",
+          "question": "Which word means \"all the vehicles on a road or in a particular area\"?",
           "choices": [
-            "get on",
-            "worry",
-            "late",
-            "road"
+            "traffic",
+            "schedule",
+            "trip",
+            "family"
           ],
           "answerIndex": 0,
-          "explanationKo": "get on은 버스나 비행기 등에 타다는 뜻입니다.",
+          "explanationKo": "traffic은/는 도로 또는 특정 지역에 있는 모든 차량라는 뜻입니다.",
           "choiceMeanings": [
-            "타다",
-            "걱정하다",
-            "늦은",
-            "도로"
+            "교통량",
+            "일정",
+            "여행",
+            "가족"
           ],
-          "hintKo": "버스나 비행기 등에 타다는 뜻입니다."
+          "hintKo": "도로 또는 특정 지역에 있는 모든 차량"
         },
         {
           "id": "U1-R1-1",
@@ -832,14 +832,14 @@
             "roof"
           ],
           "answerIndex": 1,
-          "explanationKo": "flutter는 새나 곤충의 날개처럼 가볍고 빠르게 움직인다는 뜻입니다.",
+          "explanationKo": "flutter은/는 새나 곤충이 날개를 움직이듯 가볍고 빠르게 움직이다라는 뜻입니다.",
           "choiceMeanings": [
             "흔들다",
             "펄럭이다",
-            "잡고 있다, 유지하다",
+            "잡다",
             "지붕"
           ],
-          "hintKo": "새나 곤충의 날개처럼 가볍고 빠르게 움직인다는 뜻입니다."
+          "hintKo": "새나 곤충이 날개를 움직이듯 가볍고 빠르게 움직이다"
         },
         {
           "id": "U2-V1-2",
@@ -855,14 +855,14 @@
             "roof"
           ],
           "answerIndex": 0,
-          "explanationKo": "shake는 짧고 빠르게 앞뒤나 위아래로 흔든다는 뜻입니다.",
+          "explanationKo": "shake은/는 짧고 빠른 움직임으로 앞뒤 또는 위아래로 흔들다라는 뜻입니다.",
           "choiceMeanings": [
             "흔들다",
             "연",
             "깃발",
             "지붕"
           ],
-          "hintKo": "짧고 빠르게 앞뒤나 위아래로 흔든다는 뜻입니다."
+          "hintKo": "짧고 빠른 움직임으로 앞뒤 또는 위아래로 흔들다"
         },
         {
           "id": "U2-V1-3",
@@ -878,14 +878,14 @@
             "inside out"
           ],
           "answerIndex": 1,
-          "explanationKo": "hold는 어떤 것을 특정한 위치나 장소에 있게 한다는 뜻입니다.",
+          "explanationKo": "hold은/는 손이나 팔로 무엇인가 또는 누군가를 잡고 있다라는 뜻입니다.",
           "choiceMeanings": [
-            "lift",
-            "잡고 있다, 유지하다",
+            "들어 올리다",
+            "잡다",
             "펄럭이다",
-            "inside out"
+            "뒤집혀서"
           ],
-          "hintKo": "어떤 것을 특정한 위치나 장소에 있게 한다는 뜻입니다."
+          "hintKo": "손이나 팔로 무엇인가 또는 누군가를 잡고 있다"
         },
         {
           "id": "U2-V1-4",
@@ -901,14 +901,14 @@
             "roof"
           ],
           "answerIndex": 0,
-          "explanationKo": "kite는 바람에 날리는 가벼운 장난감인 연을 뜻합니다.",
+          "explanationKo": "kite은/는 긴 줄을 달아 하늘에 띄우는 장난감라는 뜻입니다.",
           "choiceMeanings": [
             "연",
             "깃발",
             "우산",
             "지붕"
           ],
-          "hintKo": "바람에 날리는 가벼운 장난감인 연을 뜻합니다."
+          "hintKo": "긴 줄을 달아 하늘에 띄우는 장난감"
         },
         {
           "id": "U2-V1-5",
@@ -924,14 +924,14 @@
             "activity"
           ],
           "answerIndex": 0,
-          "explanationKo": "lift는 무언가를 위로 들어 올리다는 뜻입니다.",
+          "explanationKo": "lift은/는 물건이나 사람을 더 높은 위치로 들어 올리다라는 뜻입니다.",
           "choiceMeanings": [
-            "lift",
+            "들어 올리다",
             "즐기다",
-            "jogging",
-            "activity"
+            "조깅",
+            "활동"
           ],
-          "hintKo": "무언가를 위로 들어 올리다는 뜻입니다."
+          "hintKo": "물건이나 사람을 더 높은 위치로 들어 올리다"
         },
         {
           "id": "U2-V2-1",
@@ -947,14 +947,14 @@
             "gentle"
           ],
           "answerIndex": 0,
-          "explanationKo": "fisherman은 물고기를 잡는 사람, 즉 어부를 뜻합니다.",
+          "explanationKo": "fisherman은/는 취미나 생계를 위해 물고기를 잡는 사람라는 뜻입니다.",
           "choiceMeanings": [
             "어부",
             "날씨",
             "약속하다",
             "부드러운"
           ],
-          "hintKo": "물고기를 잡는 사람, 즉 어부를 뜻합니다."
+          "hintKo": "취미나 생계를 위해 물고기를 잡는 사람"
         },
         {
           "id": "U2-V2-2",
@@ -970,14 +970,14 @@
             "fish"
           ],
           "answerIndex": 0,
-          "explanationKo": "weather는 햇빛, 비, 바람, 구름 등 바깥의 상태인 날씨를 뜻합니다.",
+          "explanationKo": "weather은/는 온도와 태양, 비, 바람, 구름 등의 바깥 환경 상태라는 뜻입니다.",
           "choiceMeanings": [
             "날씨",
-            "구멍",
-            "catch",
-            "물고기"
+            "hole",
+            "잡다",
+            "물고기 / 낚시하다"
           ],
-          "hintKo": "햇빛, 비, 바람, 구름 등 바깥의 상태인 날씨를 뜻합니다."
+          "hintKo": "온도와 태양, 비, 바람, 구름 등의 바깥 환경 상태"
         },
         {
           "id": "U2-V2-3",
@@ -993,14 +993,14 @@
             "blow"
           ],
           "answerIndex": 1,
-          "explanationKo": "promise는 어떤 일을 꼭 하겠다고 말하는 것, 즉 약속하다는 뜻입니다.",
+          "explanationKo": "promise은/는 어떤 일을 반드시 하거나 하지 않겠다고 말하다라는 뜻입니다.",
           "choiceMeanings": [
             "잊다",
             "약속하다",
-            "catch",
+            "잡다",
             "blow"
           ],
-          "hintKo": "어떤 일을 꼭 하겠다고 말하는 것, 즉 약속하다는 뜻입니다."
+          "hintKo": "어떤 일을 반드시 하거나 하지 않겠다고 말하다"
         },
         {
           "id": "U2-V2-4",
@@ -1016,14 +1016,14 @@
             "many"
           ],
           "answerIndex": 1,
-          "explanationKo": "gentle은 차분하고 부드럽거나 세지 않다는 뜻입니다.",
+          "explanationKo": "gentle은/는 행동이 차분하고 친절하며 조심스러운라는 뜻입니다.",
           "choiceMeanings": [
-            "강한",
+            "strong",
             "부드러운",
-            "더운",
+            "hot",
             "many"
           ],
-          "hintKo": "차분하고 부드럽거나 세지 않다는 뜻입니다."
+          "hintKo": "행동이 차분하고 친절하며 조심스러운"
         },
         {
           "id": "U2-V2-5",
@@ -1039,14 +1039,14 @@
             "die"
           ],
           "answerIndex": 1,
-          "explanationKo": "forget은 과거의 정보를 기억하지 못하다, 즉 잊다는 뜻입니다.",
+          "explanationKo": "forget은/는 과거의 정보를 기억하지 못하다라는 뜻입니다.",
           "choiceMeanings": [
             "약속하다",
             "잊다",
-            "happen",
-            "die"
+            "일어나다",
+            "죽다"
           ],
-          "hintKo": "과거의 정보를 기억하지 못하다, 즉 잊다는 뜻입니다."
+          "hintKo": "과거의 정보를 기억하지 못하다"
         },
         {
           "id": "U2-R1-1",
@@ -1590,14 +1590,14 @@
             "touch"
           ],
           "answerIndex": 0,
-          "explanationKo": "insect의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "insect은/는 개미, 파리, 벌처럼 여섯 다리와 날개를 가진 작은 생물라는 뜻입니다.",
           "choiceMeanings": [
             "곤충",
-            "경고",
-            "enemy",
+            "warning",
+            "적",
             "만지다"
           ],
-          "hintKo": "insect의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "개미, 파리, 벌처럼 여섯 다리와 날개를 가진 작은 생물"
         },
         {
           "id": "unit-3-insects-V2",
@@ -1605,22 +1605,22 @@
           "lesson": "Lesson 1",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"something that tells people about possible danger\"?",
+          "question": "Which word means \"a small black insect that jumps high and makes loud, high-pitched noises\"?",
           "choices": [
+            "listen",
+            "cricket",
             "insect",
-            "warning",
-            "enemy",
-            "touch"
+            "enemy"
           ],
           "answerIndex": 1,
-          "explanationKo": "warning의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "cricket은/는 높이 뛰고 큰 소리를 내는 작은 검은 곤충라는 뜻입니다.",
           "choiceMeanings": [
+            "듣다",
+            "귀뚜라미",
             "곤충",
-            "경고",
-            "enemy",
-            "만지다"
+            "적"
           ],
-          "hintKo": "warning의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "높이 뛰고 큰 소리를 내는 작은 검은 곤충"
         },
         {
           "id": "unit-3-insects-V3",
@@ -1636,14 +1636,14 @@
             "touch"
           ],
           "answerIndex": 2,
-          "explanationKo": "enemy의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "enemy은/는 전쟁을 하듯 반대하거나 미워하는 집단 또는 나라라는 뜻입니다.",
           "choiceMeanings": [
             "곤충",
-            "경고",
-            "enemy",
+            "warning",
+            "적",
             "만지다"
           ],
-          "hintKo": "enemy의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "전쟁을 하듯 반대하거나 미워하는 집단 또는 나라"
         },
         {
           "id": "unit-3-insects-V4",
@@ -1659,14 +1659,14 @@
             "touch"
           ],
           "answerIndex": 3,
-          "explanationKo": "touch의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "touch은/는 누군가 또는 무언가에 손, 손가락 또는 몸을 대다라는 뜻입니다.",
           "choiceMeanings": [
             "곤충",
-            "경고",
-            "enemy",
+            "warning",
+            "적",
             "만지다"
           ],
-          "hintKo": "touch의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가 또는 무언가에 손, 손가락 또는 몸을 대다"
         },
         {
           "id": "unit-3-insects-V5",
@@ -1682,14 +1682,14 @@
             "enemy"
           ],
           "answerIndex": 0,
-          "explanationKo": "sound의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "sound은/는 들을 수 있거나 들리는 것라는 뜻입니다.",
           "choiceMeanings": [
             "소리",
             "곤충",
-            "경고",
-            "enemy"
+            "warning",
+            "적"
           ],
-          "hintKo": "sound의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "들을 수 있거나 들리는 것"
         },
         {
           "id": "unit-3-insects-V6",
@@ -1705,14 +1705,14 @@
             "gather"
           ],
           "answerIndex": 0,
-          "explanationKo": "queen의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "queen은/는 나라를 다스리는 여자 통치자라는 뜻입니다.",
           "choiceMeanings": [
             "여왕",
             "군인",
-            "daughter",
-            "gather"
+            "딸",
+            "모이다"
           ],
-          "hintKo": "queen의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "나라를 다스리는 여자 통치자"
         },
         {
           "id": "unit-3-insects-V7",
@@ -1728,14 +1728,14 @@
             "gather"
           ],
           "answerIndex": 1,
-          "explanationKo": "soldier의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "soldier은/는 장교가 아닌 군대의 구성원라는 뜻입니다.",
           "choiceMeanings": [
             "여왕",
             "군인",
-            "daughter",
-            "gather"
+            "딸",
+            "모이다"
           ],
-          "hintKo": "soldier의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "장교가 아닌 군대의 구성원"
         },
         {
           "id": "unit-3-insects-V8",
@@ -1751,14 +1751,14 @@
             "gather"
           ],
           "answerIndex": 2,
-          "explanationKo": "daughter의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "daughter은/는 부모의 여자 아이라는 뜻입니다.",
           "choiceMeanings": [
             "여왕",
             "군인",
-            "daughter",
-            "gather"
+            "딸",
+            "모이다"
           ],
-          "hintKo": "daughter의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "부모의 여자 아이"
         },
         {
           "id": "unit-3-insects-V9",
@@ -1774,14 +1774,14 @@
             "gather"
           ],
           "answerIndex": 3,
-          "explanationKo": "gather의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "gather은/는 사람들을 모으거나 무리를 이루다라는 뜻입니다.",
           "choiceMeanings": [
             "여왕",
             "군인",
-            "daughter",
-            "gather"
+            "딸",
+            "모이다"
           ],
-          "hintKo": "gather의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "사람들을 모으거나 무리를 이루다"
         },
         {
           "id": "unit-3-insects-V10",
@@ -1797,14 +1797,14 @@
             "daughter"
           ],
           "answerIndex": 0,
-          "explanationKo": "defend의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "defend은/는 누군가 또는 무언가를 공격으로부터 보호하다라는 뜻입니다.",
           "choiceMeanings": [
-            "defend",
+            "방어하다",
             "여왕",
             "군인",
-            "daughter"
+            "딸"
           ],
-          "hintKo": "defend의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가 또는 무언가를 공격으로부터 보호하다"
         },
         {
           "id": "unit-3-insects-R1-1",
@@ -2344,22 +2344,22 @@
           "lesson": "Lesson 1",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to make a picture with a pencil or pen\"?",
+          "question": "Which word means \"an object of art that is made by carving stone, metal, and wood or molding clay\"?",
           "choices": [
-            "draw",
-            "think",
-            "right",
-            "handprint"
+            "sculpture",
+            "butterfly",
+            "artist",
+            "palette"
           ],
           "answerIndex": 0,
-          "explanationKo": "draw의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "sculpture은/는 돌, 금속, 나무를 조각하거나 점토를 빚어서 만든 예술 작품라는 뜻입니다.",
           "choiceMeanings": [
-            "draw",
-            "think",
-            "right",
-            "손도장"
+            "조각품",
+            "나비",
+            "예술가",
+            "팔레트"
           ],
-          "hintKo": "draw의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "돌, 금속, 나무를 조각하거나 점토를 빚어서 만든 예술 작품"
         },
         {
           "id": "unit-4-art-V2",
@@ -2367,22 +2367,22 @@
           "lesson": "Lesson 1",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to use your mind to decide something\"?",
+          "question": "Which word means \"a thin board that an artist uses for mixing colors when painting\"?",
           "choices": [
-            "draw",
-            "think",
-            "right",
-            "handprint"
+            "left",
+            "palette",
+            "add",
+            "spot"
           ],
           "answerIndex": 1,
-          "explanationKo": "think의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "palette은/는 그림을 그릴 때 색을 섞기 위해 화가가 사용하는 얇은 판라는 뜻입니다.",
           "choiceMeanings": [
-            "draw",
-            "think",
-            "right",
-            "손도장"
+            "왼쪽",
+            "팔레트",
+            "더하다 / 넣다",
+            "점"
           ],
-          "hintKo": "think의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "그림을 그릴 때 색을 섞기 위해 화가가 사용하는 얇은 판"
         },
         {
           "id": "unit-4-art-V3",
@@ -2398,14 +2398,14 @@
             "handprint"
           ],
           "answerIndex": 2,
-          "explanationKo": "right의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "right은/는 사람이 북쪽을 바라볼 때 동쪽에 해당하는 몸의 쪽라는 뜻입니다.",
           "choiceMeanings": [
             "draw",
             "think",
-            "right",
-            "손도장"
+            "오른쪽",
+            "손자국"
           ],
-          "hintKo": "right의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "사람이 북쪽을 바라볼 때 동쪽에 해당하는 몸의 쪽"
         },
         {
           "id": "unit-4-art-V4",
@@ -2421,14 +2421,14 @@
             "handprint"
           ],
           "answerIndex": 3,
-          "explanationKo": "handprint의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "handprint은/는 누군가의 손바닥이 표면에 남긴 자국라는 뜻입니다.",
           "choiceMeanings": [
             "draw",
             "think",
-            "right",
-            "손도장"
+            "오른쪽",
+            "손자국"
           ],
-          "hintKo": "handprint의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가의 손바닥이 표면에 남긴 자국"
         },
         {
           "id": "unit-4-art-V5",
@@ -2444,14 +2444,14 @@
             "right"
           ],
           "answerIndex": 0,
-          "explanationKo": "spot의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "spot은/는 표면과 다른 색을 가진 작고 둥근 부분라는 뜻입니다.",
           "choiceMeanings": [
             "점",
             "draw",
             "think",
-            "right"
+            "오른쪽"
           ],
-          "hintKo": "spot의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "표면과 다른 색을 가진 작고 둥근 부분"
         },
         {
           "id": "unit-4-art-V6",
@@ -2459,22 +2459,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"a person who makes art\"?",
+          "question": "Which word means \"a shape with four sides of equal length\"?",
           "choices": [
-            "artist",
-            "different",
-            "shape",
-            "rectangle"
+            "square",
+            "glue",
+            "crayon",
+            "scissors"
           ],
           "answerIndex": 0,
-          "explanationKo": "artist의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "square은/는 네 변의 길이가 모두 같은 도형라는 뜻입니다.",
           "choiceMeanings": [
-            "화가, 예술가",
-            "different",
-            "모양",
-            "직사각형"
+            "정사각형",
+            "풀",
+            "크레용",
+            "가위"
           ],
-          "hintKo": "artist의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "네 변의 길이가 모두 같은 도형"
         },
         {
           "id": "unit-4-art-V7",
@@ -2490,14 +2490,14 @@
             "rectangle"
           ],
           "answerIndex": 1,
-          "explanationKo": "different의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "different은/는 누군가 또는 무언가와 같지 않거나 다른 상태라는 뜻입니다.",
           "choiceMeanings": [
-            "화가, 예술가",
-            "different",
+            "예술가",
+            "다른",
             "모양",
             "직사각형"
           ],
-          "hintKo": "different의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가 또는 무언가와 같지 않거나 다른 상태"
         },
         {
           "id": "unit-4-art-V8",
@@ -2513,14 +2513,14 @@
             "rectangle"
           ],
           "answerIndex": 2,
-          "explanationKo": "shape의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "shape은/는 둥근 모양, 정사각형, 삼각형처럼 물건의 형태나 윤곽라는 뜻입니다.",
           "choiceMeanings": [
-            "화가, 예술가",
-            "different",
+            "예술가",
+            "다른",
             "모양",
             "직사각형"
           ],
-          "hintKo": "shape의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "둥근 모양, 정사각형, 삼각형처럼 물건의 형태나 윤곽"
         },
         {
           "id": "unit-4-art-V9",
@@ -2536,14 +2536,14 @@
             "rectangle"
           ],
           "answerIndex": 3,
-          "explanationKo": "rectangle의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "rectangle은/는 네 개의 곧은 변이 있고 그중 두 변이 다른 두 변보다 길며 네 각이 90도인 평평한 도형라는 뜻입니다.",
           "choiceMeanings": [
-            "화가, 예술가",
-            "different",
+            "예술가",
+            "다른",
             "모양",
             "직사각형"
           ],
-          "hintKo": "rectangle의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "네 개의 곧은 변이 있고 그중 두 변이 다른 두 변보다 길며 네 각이 90도인 평평한 도형"
         },
         {
           "id": "unit-4-art-V10",
@@ -2559,14 +2559,14 @@
             "shape"
           ],
           "answerIndex": 0,
-          "explanationKo": "circle의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "circle은/는 알파벳 O처럼 완전히 둥근 모양라는 뜻입니다.",
           "choiceMeanings": [
             "원",
-            "화가, 예술가",
-            "different",
+            "예술가",
+            "다른",
             "모양"
           ],
-          "hintKo": "circle의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "알파벳 O처럼 완전히 둥근 모양"
         },
         {
           "id": "unit-4-art-R1-1",
@@ -3107,22 +3107,22 @@
           "lesson": "Lesson 1",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to be a member of a group\"?",
+          "question": "Which word means \"to be a member of\"?",
           "choices": [
-            "belong",
-            "in common",
-            "sharp",
-            "claw"
+            "belong (to)",
+            "giant",
+            "panda",
+            "mammal"
           ],
           "answerIndex": 0,
-          "explanationKo": "belong의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "belong (to)은/는 구성원 또는 일부가 되다라는 뜻입니다.",
           "choiceMeanings": [
-            "belong",
-            "common 안에/에서",
-            "날카로운",
-            "발톱"
+            "속하다",
+            "거대한",
+            "판다",
+            "포유류"
           ],
-          "hintKo": "belong의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "구성원 또는 일부가 되다"
         },
         {
           "id": "unit-5-giant-pandas-V2",
@@ -3138,14 +3138,14 @@
             "claw"
           ],
           "answerIndex": 1,
-          "explanationKo": "in common의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "in common은/는 같은 방식, 특징, 성질 등을 가지고 있음라는 뜻입니다.",
           "choiceMeanings": [
             "belong",
-            "common 안에/에서",
+            "공통으로",
             "날카로운",
             "발톱"
           ],
-          "hintKo": "in common의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "같은 방식, 특징, 성질 등을 가지고 있음"
         },
         {
           "id": "unit-5-giant-pandas-V3",
@@ -3161,14 +3161,14 @@
             "claw"
           ],
           "answerIndex": 2,
-          "explanationKo": "sharp의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "sharp은/는 얇은 날이나 뾰족한 끝이 있어 자르거나 구멍을 낼 수 있음라는 뜻입니다.",
           "choiceMeanings": [
             "belong",
-            "common 안에/에서",
+            "공통으로",
             "날카로운",
             "발톱"
           ],
-          "hintKo": "sharp의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "얇은 날이나 뾰족한 끝이 있어 자르거나 구멍을 낼 수 있음"
         },
         {
           "id": "unit-5-giant-pandas-V4",
@@ -3184,14 +3184,14 @@
             "claw"
           ],
           "answerIndex": 3,
-          "explanationKo": "claw의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "claw은/는 동물의 발가락에 있는 날카롭고 굽은 발톱라는 뜻입니다.",
           "choiceMeanings": [
             "belong",
-            "common 안에/에서",
+            "공통으로",
             "날카로운",
             "발톱"
           ],
-          "hintKo": "claw의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "동물의 발가락에 있는 날카롭고 굽은 발톱"
         },
         {
           "id": "unit-5-giant-pandas-V5",
@@ -3207,14 +3207,14 @@
             "sharp"
           ],
           "answerIndex": 0,
-          "explanationKo": "bamboo의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "bamboo은/는 가구를 만드는 데 쓰이는 단단하고 속이 빈 줄기를 가진 키 큰 열대 식물라는 뜻입니다.",
           "choiceMeanings": [
             "대나무",
             "belong",
-            "common 안에/에서",
+            "공통으로",
             "날카로운"
           ],
-          "hintKo": "bamboo의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "가구를 만드는 데 쓰이는 단단하고 속이 빈 줄기를 가진 키 큰 열대 식물"
         },
         {
           "id": "unit-5-giant-pandas-V6",
@@ -3230,14 +3230,14 @@
             "cub"
           ],
           "answerIndex": 0,
-          "explanationKo": "snow의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "snow은/는 추울 때 하늘에서 땅으로 떨어지는 부드럽고 흰 얼음 조각라는 뜻입니다.",
           "choiceMeanings": [
             "눈",
             "표범",
-            "겁주다",
+            "놀라게 하다",
             "새끼"
           ],
-          "hintKo": "snow의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "추울 때 하늘에서 땅으로 떨어지는 부드럽고 흰 얼음 조각"
         },
         {
           "id": "unit-5-giant-pandas-V7",
@@ -3253,14 +3253,14 @@
             "cub"
           ],
           "answerIndex": 1,
-          "explanationKo": "leopard의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "leopard은/는 아프리카와 남아시아에 사는 노란 갈색 털과 검은 점이 있는 고양잇과의 큰 동물라는 뜻입니다.",
           "choiceMeanings": [
             "눈",
             "표범",
-            "겁주다",
+            "놀라게 하다",
             "새끼"
           ],
-          "hintKo": "leopard의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "아프리카와 남아시아에 사는 노란 갈색 털과 검은 점이 있는 고양잇과의 큰 동물"
         },
         {
           "id": "unit-5-giant-pandas-V8",
@@ -3276,14 +3276,14 @@
             "cub"
           ],
           "answerIndex": 2,
-          "explanationKo": "scare의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "scare은/는 누군가를 무섭거나 겁나게 만들다라는 뜻입니다.",
           "choiceMeanings": [
             "눈",
             "표범",
-            "겁주다",
+            "놀라게 하다",
             "새끼"
           ],
-          "hintKo": "scare의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가를 무섭거나 겁나게 만들다"
         },
         {
           "id": "unit-5-giant-pandas-V9",
@@ -3299,14 +3299,14 @@
             "cub"
           ],
           "answerIndex": 3,
-          "explanationKo": "cub의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "cub은/는 곰, 사자, 여우 등의 새끼라는 뜻입니다.",
           "choiceMeanings": [
             "눈",
             "표범",
-            "겁주다",
+            "놀라게 하다",
             "새끼"
           ],
-          "hintKo": "cub의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "곰, 사자, 여우 등의 새끼"
         },
         {
           "id": "unit-5-giant-pandas-V10",
@@ -3322,14 +3322,14 @@
             "scare"
           ],
           "answerIndex": 0,
-          "explanationKo": "cry의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "cry은/는 슬프거나 다쳐서 눈에서 눈물을 흘리다라는 뜻입니다.",
           "choiceMeanings": [
-            "cry",
+            "울다",
             "눈",
             "표범",
-            "겁주다"
+            "놀라게 하다"
           ],
-          "hintKo": "cry의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "슬프거나 다쳐서 눈에서 눈물을 흘리다"
         },
         {
           "id": "unit-5-giant-pandas-R1-1",
@@ -3880,14 +3880,14 @@
             "healthy"
           ],
           "answerIndex": 0,
-          "explanationKo": "type의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "type은/는 사물이나 사람의 특정한 종류나 무리 중 하나라는 뜻입니다.",
           "choiceMeanings": [
-            "type",
-            "맛보다",
+            "종류",
+            "taste",
             "영양가 있는",
             "건강한"
           ],
-          "hintKo": "type의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "사물이나 사람의 특정한 종류나 무리 중 하나"
         },
         {
           "id": "unit-6-apples-V2",
@@ -3895,22 +3895,22 @@
           "lesson": "Lesson 1",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to have a particular flavor\"?",
+          "question": "Which word means \"having a lot of juice and being good to eat\"?",
           "choices": [
-            "type",
-            "taste",
             "nutritious",
-            "healthy"
+            "juicy",
+            "healthy",
+            "pie"
           ],
           "answerIndex": 1,
-          "explanationKo": "taste의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "juicy은/는 즙이 많고 먹기에 좋은라는 뜻입니다.",
           "choiceMeanings": [
-            "type",
-            "맛보다",
             "영양가 있는",
-            "건강한"
+            "과즙이 많은",
+            "건강한",
+            "파이"
           ],
-          "hintKo": "taste의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "즙이 많고 먹기에 좋은"
         },
         {
           "id": "unit-6-apples-V3",
@@ -3926,14 +3926,14 @@
             "healthy"
           ],
           "answerIndex": 2,
-          "explanationKo": "nutritious의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "nutritious은/는 몸이 자라도록 돕는 많은 자연 물질을 포함한라는 뜻입니다.",
           "choiceMeanings": [
-            "type",
-            "맛보다",
+            "종류",
+            "taste",
             "영양가 있는",
             "건강한"
           ],
-          "hintKo": "nutritious의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "몸이 자라도록 돕는 많은 자연 물질을 포함한"
         },
         {
           "id": "unit-6-apples-V4",
@@ -3949,14 +3949,14 @@
             "healthy"
           ],
           "answerIndex": 3,
-          "explanationKo": "healthy의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "healthy은/는 몸과 전반적인 건강에 좋은라는 뜻입니다.",
           "choiceMeanings": [
-            "type",
-            "맛보다",
+            "종류",
+            "taste",
             "영양가 있는",
             "건강한"
           ],
-          "hintKo": "healthy의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "몸과 전반적인 건강에 좋은"
         },
         {
           "id": "unit-6-apples-V5",
@@ -3972,14 +3972,14 @@
             "nutritious"
           ],
           "answerIndex": 0,
-          "explanationKo": "raw의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "raw은/는 요리되지 않은라는 뜻입니다.",
           "choiceMeanings": [
             "날것의",
-            "type",
-            "맛보다",
+            "종류",
+            "taste",
             "영양가 있는"
           ],
-          "hintKo": "raw의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "요리되지 않은"
         },
         {
           "id": "unit-6-apples-V6",
@@ -3987,22 +3987,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to come out of a mother’s body\"?",
+          "question": "Which word means \"to remove flowers, fruit, nuts etc. from the plant or the tree\"?",
           "choices": [
-            "born",
-            "name",
-            "know",
-            "feed"
+            "pick",
+            "pot",
+            "plant",
+            "seed"
           ],
           "answerIndex": 0,
-          "explanationKo": "born의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "pick은/는 식물이나 나무에서 꽃, 과일, 견과류 등을 떼어 내다라는 뜻입니다.",
           "choiceMeanings": [
-            "born",
-            "name",
-            "know",
-            "feed"
+            "따다",
+            "냄비",
+            "심다",
+            "씨앗"
           ],
-          "hintKo": "born의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "식물이나 나무에서 꽃, 과일, 견과류 등을 떼어 내다"
         },
         {
           "id": "unit-6-apples-V7",
@@ -4018,14 +4018,14 @@
             "feed"
           ],
           "answerIndex": 1,
-          "explanationKo": "name의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "name은/는 특정한 사람, 동물, 장소, 사물이 알려지는 말라는 뜻입니다.",
           "choiceMeanings": [
             "born",
-            "name",
-            "know",
-            "feed"
+            "이름",
+            "알다",
+            "먹이를 주다"
           ],
-          "hintKo": "name의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "특정한 사람, 동물, 장소, 사물이 알려지는 말"
         },
         {
           "id": "unit-6-apples-V8",
@@ -4041,14 +4041,14 @@
             "feed"
           ],
           "answerIndex": 2,
-          "explanationKo": "know의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "know은/는 마음속에 무언가 또는 누군가에 대한 정보를 가지고 있다라는 뜻입니다.",
           "choiceMeanings": [
             "born",
-            "name",
-            "know",
-            "feed"
+            "이름",
+            "알다",
+            "먹이를 주다"
           ],
-          "hintKo": "know의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "마음속에 무언가 또는 누군가에 대한 정보를 가지고 있다"
         },
         {
           "id": "unit-6-apples-V9",
@@ -4064,14 +4064,14 @@
             "feed"
           ],
           "answerIndex": 3,
-          "explanationKo": "feed의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "feed은/는 사람이나 동물에게 음식을 주다라는 뜻입니다.",
           "choiceMeanings": [
             "born",
-            "name",
-            "know",
-            "feed"
+            "이름",
+            "알다",
+            "먹이를 주다"
           ],
-          "hintKo": "feed의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "사람이나 동물에게 음식을 주다"
         },
         {
           "id": "unit-6-apples-V10",
@@ -4087,14 +4087,14 @@
             "know"
           ],
           "answerIndex": 0,
-          "explanationKo": "plant의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "plant은/는 자라도록 씨앗이나 식물을 땅에 넣다라는 뜻입니다.",
           "choiceMeanings": [
             "심다",
             "born",
-            "name",
-            "know"
+            "이름",
+            "알다"
           ],
-          "hintKo": "plant의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "자라도록 씨앗이나 식물을 땅에 넣다"
         },
         {
           "id": "unit-6-apples-R1-1",
@@ -4646,14 +4646,14 @@
             "cold"
           ],
           "answerIndex": 0,
-          "explanationKo": "germ의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "germ은/는 감염을 일으키고 아프게 할 수 있는 매우 작은 생물라는 뜻입니다.",
           "choiceMeanings": [
             "세균",
             "아주 작은",
             "복통",
-            "차가운"
+            "감기"
           ],
-          "hintKo": "germ의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "감염을 일으키고 아프게 할 수 있는 매우 작은 생물"
         },
         {
           "id": "unit-7-germs-V2",
@@ -4669,14 +4669,14 @@
             "cold"
           ],
           "answerIndex": 1,
-          "explanationKo": "tiny의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "tiny은/는 크기나 양이 아주 작은라는 뜻입니다.",
           "choiceMeanings": [
             "세균",
             "아주 작은",
             "복통",
-            "차가운"
+            "감기"
           ],
-          "hintKo": "tiny의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "크기나 양이 아주 작은"
         },
         {
           "id": "unit-7-germs-V3",
@@ -4692,14 +4692,14 @@
             "cold"
           ],
           "answerIndex": 2,
-          "explanationKo": "stomachache의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "stomachache은/는 위나 배의 통증라는 뜻입니다.",
           "choiceMeanings": [
             "세균",
             "아주 작은",
             "복통",
-            "차가운"
+            "감기"
           ],
-          "hintKo": "stomachache의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "위나 배의 통증"
         },
         {
           "id": "unit-7-germs-V4",
@@ -4715,14 +4715,14 @@
             "cold"
           ],
           "answerIndex": 3,
-          "explanationKo": "cold의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "cold은/는 코, 목, 몸에 영향을 주며 기침과 재채기를 하게 하는 흔한 병라는 뜻입니다.",
           "choiceMeanings": [
             "세균",
             "아주 작은",
             "복통",
-            "차가운"
+            "감기"
           ],
-          "hintKo": "cold의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "코, 목, 몸에 영향을 주며 기침과 재채기를 하게 하는 흔한 병"
         },
         {
           "id": "unit-7-germs-V5",
@@ -4738,14 +4738,14 @@
             "stomachache"
           ],
           "answerIndex": 0,
-          "explanationKo": "warm의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "warm은/는 특히 기분 좋게 어느 정도 따뜻한라는 뜻입니다.",
           "choiceMeanings": [
             "따뜻한",
             "세균",
             "아주 작은",
             "복통"
           ],
-          "hintKo": "warm의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "특히 기분 좋게 어느 정도 따뜻한"
         },
         {
           "id": "unit-7-germs-V6",
@@ -4761,14 +4761,14 @@
             "protect"
           ],
           "answerIndex": 0,
-          "explanationKo": "attack의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "attack은/는 누군가를 다치게 하거나 죽이려고 폭력적으로 행동하다라는 뜻입니다.",
           "choiceMeanings": [
-            "attack",
+            "공격하다",
             "피곤한",
-            "약한",
+            "weak",
             "보호하다"
           ],
-          "hintKo": "attack의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "누군가를 다치게 하거나 죽이려고 폭력적으로 행동하다"
         },
         {
           "id": "unit-7-germs-V7",
@@ -4784,14 +4784,14 @@
             "protect"
           ],
           "answerIndex": 1,
-          "explanationKo": "tired의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "tired은/는 졸리거나 쉬고 싶은 느낌라는 뜻입니다.",
           "choiceMeanings": [
-            "attack",
+            "공격하다",
             "피곤한",
-            "약한",
+            "weak",
             "보호하다"
           ],
-          "hintKo": "tired의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "졸리거나 쉬고 싶은 느낌"
         },
         {
           "id": "unit-7-germs-V8",
@@ -4799,22 +4799,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"not strong\"?",
+          "question": "Which word means \"physically or mentally ill\"?",
           "choices": [
-            "attack",
-            "tired",
-            "weak",
-            "protect"
+            "chance",
+            "terrible",
+            "sick",
+            "infect"
           ],
           "answerIndex": 2,
-          "explanationKo": "weak의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "sick은/는 몸이나 마음이 아픈라는 뜻입니다.",
           "choiceMeanings": [
-            "attack",
-            "피곤한",
-            "약한",
-            "보호하다"
+            "기회",
+            "끔찍한",
+            "아픈",
+            "감염시키다"
           ],
-          "hintKo": "weak의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "몸이나 마음이 아픈"
         },
         {
           "id": "unit-7-germs-V9",
@@ -4822,22 +4822,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"to keep safe from harm\"?",
+          "question": "Which word means \"to move your tongue over something in order to eat, wet, or clean it\"?",
           "choices": [
+            "fever",
+            "sick",
             "attack",
-            "tired",
-            "weak",
-            "protect"
+            "lick"
           ],
           "answerIndex": 3,
-          "explanationKo": "protect의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "lick은/는 먹거나 적시거나 깨끗하게 하기 위해 혀를 무언가 위로 움직이다라는 뜻입니다.",
           "choiceMeanings": [
-            "attack",
-            "피곤한",
-            "약한",
-            "보호하다"
+            "열",
+            "아픈",
+            "공격하다",
+            "핥다"
           ],
-          "hintKo": "protect의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "먹거나 적시거나 깨끗하게 하기 위해 혀를 무언가 위로 움직이다"
         },
         {
           "id": "unit-7-germs-V10",
@@ -4845,22 +4845,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"something used with water to wash\"?",
+          "question": "Which word means \"the front part of the head where the eyes, nose and mouth are\"?",
           "choices": [
-            "soap",
-            "attack",
-            "tired",
-            "weak"
+            "face",
+            "terrible",
+            "infect",
+            "headache"
           ],
           "answerIndex": 0,
-          "explanationKo": "soap의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "face은/는 눈, 코, 입이 있는 머리의 앞부분라는 뜻입니다.",
           "choiceMeanings": [
-            "비누",
-            "attack",
-            "피곤한",
-            "약한"
+            "얼굴",
+            "끔찍한",
+            "감염시키다",
+            "두통"
           ],
-          "hintKo": "soap의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "눈, 코, 입이 있는 머리의 앞부분"
         },
         {
           "id": "unit-7-germs-R1-1",
@@ -5404,14 +5404,14 @@
             "camera"
           ],
           "answerIndex": 0,
-          "explanationKo": "portrait의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "portrait은/는 보통 머리와 어깨를 그리거나 찍은 사람의 그림, 드로잉, 사진라는 뜻입니다.",
           "choiceMeanings": [
             "초상화",
-            "그리다, 칠하다",
+            "그리다 / 칠하다",
             "기록하다",
             "카메라"
           ],
-          "hintKo": "portrait의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "보통 머리와 어깨를 그리거나 찍은 사람의 그림, 드로잉, 사진"
         },
         {
           "id": "unit-8-portraits-V2",
@@ -5427,14 +5427,14 @@
             "camera"
           ],
           "answerIndex": 1,
-          "explanationKo": "paint의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "paint은/는 색칠하고 그림을 만들다라는 뜻입니다.",
           "choiceMeanings": [
             "초상화",
-            "그리다, 칠하다",
+            "그리다 / 칠하다",
             "기록하다",
             "카메라"
           ],
-          "hintKo": "paint의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "색칠하고 그림을 만들다"
         },
         {
           "id": "unit-8-portraits-V3",
@@ -5450,14 +5450,14 @@
             "camera"
           ],
           "answerIndex": 2,
-          "explanationKo": "record의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "record은/는 나중에 쓰거나 다시 볼 수 있게 무언가를 적어 두다라는 뜻입니다.",
           "choiceMeanings": [
             "초상화",
-            "그리다, 칠하다",
+            "그리다 / 칠하다",
             "기록하다",
             "카메라"
           ],
-          "hintKo": "record의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "나중에 쓰거나 다시 볼 수 있게 무언가를 적어 두다"
         },
         {
           "id": "unit-8-portraits-V4",
@@ -5473,14 +5473,14 @@
             "camera"
           ],
           "answerIndex": 3,
-          "explanationKo": "camera의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "camera은/는 사진을 찍거나 영화, 텔레비전 프로그램 등을 만드는 장치라는 뜻입니다.",
           "choiceMeanings": [
             "초상화",
-            "그리다, 칠하다",
+            "그리다 / 칠하다",
             "기록하다",
             "카메라"
           ],
-          "hintKo": "camera의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "사진을 찍거나 영화, 텔레비전 프로그램 등을 만드는 장치"
         },
         {
           "id": "unit-8-portraits-V5",
@@ -5496,14 +5496,14 @@
             "record"
           ],
           "answerIndex": 0,
-          "explanationKo": "king의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "king은/는 왕족 출신의 나라를 다스리는 남자 통치자라는 뜻입니다.",
           "choiceMeanings": [
             "왕",
             "초상화",
-            "그리다, 칠하다",
+            "그리다 / 칠하다",
             "기록하다"
           ],
-          "hintKo": "king의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "왕족 출신의 나라를 다스리는 남자 통치자"
         },
         {
           "id": "unit-8-portraits-V6",
@@ -5519,14 +5519,14 @@
             "painter"
           ],
           "answerIndex": 0,
-          "explanationKo": "handsome의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "handsome은/는 잘생겼거나 매력적인라는 뜻입니다.",
           "choiceMeanings": [
             "잘생긴",
             "용감한",
-            "leg",
+            "다리",
             "화가"
           ],
-          "hintKo": "handsome의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "잘생겼거나 매력적인"
         },
         {
           "id": "unit-8-portraits-V7",
@@ -5542,14 +5542,14 @@
             "painter"
           ],
           "answerIndex": 1,
-          "explanationKo": "brave의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "brave은/는 위험할 때 두려워하지 않거나 용기가 있는라는 뜻입니다.",
           "choiceMeanings": [
             "잘생긴",
             "용감한",
-            "leg",
+            "다리",
             "화가"
           ],
-          "hintKo": "brave의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "위험할 때 두려워하지 않거나 용기가 있는"
         },
         {
           "id": "unit-8-portraits-V8",
@@ -5565,14 +5565,14 @@
             "painter"
           ],
           "answerIndex": 2,
-          "explanationKo": "leg의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "leg은/는 서기, 걷기, 달리기에 쓰이는 긴 몸의 부분 중 하나라는 뜻입니다.",
           "choiceMeanings": [
             "잘생긴",
             "용감한",
-            "leg",
+            "다리",
             "화가"
           ],
-          "hintKo": "leg의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "서기, 걷기, 달리기에 쓰이는 긴 몸의 부분 중 하나"
         },
         {
           "id": "unit-8-portraits-V9",
@@ -5588,14 +5588,14 @@
             "painter"
           ],
           "answerIndex": 3,
-          "explanationKo": "painter의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "painter은/는 그림 그리는 일이 직업인 사람라는 뜻입니다.",
           "choiceMeanings": [
             "잘생긴",
             "용감한",
-            "leg",
+            "다리",
             "화가"
           ],
-          "hintKo": "painter의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "그림 그리는 일이 직업인 사람"
         },
         {
           "id": "unit-8-portraits-V10",
@@ -5603,22 +5603,22 @@
           "lesson": "Lesson 2",
           "questionType": "영영정의형",
           "mode": "direct",
-          "question": "Which word means \"very nice to look at\"?",
+          "question": "Which word means \"a man of high rank in the past who was trained to fight for his king\"?",
           "choices": [
-            "beautiful",
-            "handsome",
+            "knight",
             "brave",
-            "leg"
+            "leg",
+            "painter"
           ],
           "answerIndex": 0,
-          "explanationKo": "beautiful의 뜻을 묻는 영영정의형 문제입니다.",
+          "explanationKo": "knight은/는 과거에 왕을 위해 싸우도록 훈련받은 높은 지위의 남자라는 뜻입니다.",
           "choiceMeanings": [
-            "아름다운",
-            "잘생긴",
+            "기사",
             "용감한",
-            "leg"
+            "다리",
+            "화가"
           ],
-          "hintKo": "beautiful의 뜻을 묻는 영영정의형 문제입니다."
+          "hintKo": "과거에 왕을 위해 싸우도록 훈련받은 높은 지위의 남자"
         },
         {
           "id": "unit-8-portraits-R1-1",

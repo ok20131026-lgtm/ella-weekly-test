@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { QuizQuestion, QuizUnit } from "@/data/quizData";
 import { AREA_LABELS } from "@/lib/quizUtils";
 import PassageBox from "./PassageBox";
@@ -28,6 +31,13 @@ export default function QuestionCard({
   canPrev
 }: Props) {
   const answered = selectedIndex !== undefined;
+  const [hintOpen, setHintOpen] = useState(false);
+
+  useEffect(() => {
+    setHintOpen(false);
+  }, [question.id]);
+
+  const isVocabulary = question.section === "vocabulary";
 
   return (
     <main className="mx-auto w-full max-w-md px-4 py-6">
@@ -61,7 +71,7 @@ export default function QuestionCard({
           />
         </div>
 
-        {question.section !== "vocabulary" && (
+        {!isVocabulary && (
           <div className="mt-5">
             <PassageBox question={question} unit={unit} />
           </div>
@@ -75,9 +85,22 @@ export default function QuestionCard({
           Q{current}. {question.question}
         </h2>
 
-        {question.section === "vocabulary" && question.hintKo && (
-          <div className="mt-4 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-base font-bold leading-relaxed text-amber-800">
-            💡 힌트: {question.hintKo}
+        {isVocabulary && question.hintKo && (
+          <div className="mt-4">
+            <button
+              type="button"
+              onClick={() => setHintOpen((value) => !value)}
+              className="rounded-full border border-amber-300 bg-amber-50 px-4 py-2 text-base font-black text-amber-800 shadow-sm"
+            >
+              {hintOpen ? "힌트 숨기기" : "힌트 보기"} 💡
+            </button>
+
+            {hintOpen && (
+              <div className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-base font-bold leading-relaxed text-amber-900">
+                <p className="font-black">영영해석</p>
+                <p className="mt-1">{question.hintKo}</p>
+              </div>
+            )}
           </div>
         )}
 
@@ -106,7 +129,7 @@ export default function QuestionCard({
                   </span>
                   <div className="min-w-0">
                     <p className="text-xl font-black leading-snug">{choice}</p>
-                    {answered && meaning && (
+                    {answered && (
                       <div className="mt-2 flex flex-wrap items-center gap-2 text-base font-bold leading-snug">
                         {correct && (
                           <span className="rounded-full bg-green-100 px-2 py-1 text-sm font-black text-green-700">
@@ -118,9 +141,11 @@ export default function QuestionCard({
                             오답
                           </span>
                         )}
-                        <span className={correct ? "text-green-700" : wrong ? "text-red-700" : "text-slate-600"}>
-                          뜻: {meaning}
-                        </span>
+                        {isVocabulary && meaning && (
+                          <span className={correct ? "text-green-700" : wrong ? "text-red-700" : "text-slate-600"}>
+                            뜻: {meaning}
+                          </span>
+                        )}
                       </div>
                     )}
                   </div>
