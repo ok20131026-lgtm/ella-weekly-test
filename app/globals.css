@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{box-sizing:border-box}html,body{min-height:100%;margin:0;background:radial-gradient(circle at top left,rgba(196,181,253,.35),transparent 30%),radial-gradient(circle at bottom right,rgba(186,230,253,.45),transparent 28%),#f6f8fc;color:#172033}button{-webkit-tap-highlight-color:transparent}
